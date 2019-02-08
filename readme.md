@@ -56,5 +56,5 @@
 | 162           | Op. 63 No. 2        | F                 | minor | 1846    |
 | 162           | Op. 63 No. 3        | C sharp           | minor | 1846    |
 | 163           | Op. posth. 67 No. 4 | A                 | minor | 1846    |
-| None          | Op. posth. 67 No. 2 | G                 | minor | 1849    |
+| 167           | Op. posth. 67 No. 2 | G                 | minor | 1849    |
 | 168           | Op. posth. 68 No. 4 | F                 | minor | 1849    |
