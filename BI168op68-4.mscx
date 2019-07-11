@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>4592407</programRevision>
+  <programRevision>3543170</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -75,6 +75,7 @@
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
+        <barLineSpan>2</barLineSpan>
         </Staff>
       <trackName>piano</trackName>
       <Instrument>
@@ -89,6 +90,7 @@
       <Staff id="2">
         <StaffType group="pitched">
           </StaffType>
+        <barLineSpan>0</barLineSpan>
         </Staff>
       <trackName>piano</trackName>
       <Instrument>
@@ -167,10 +169,15 @@
           </Chord>
         <BarLine>
           <subtype>double</subtype>
-          <span>1</span>
+          <span>2</span>
           </BarLine>
         </Measure>
       <Measure number="2">
+        <Marker>
+          <style>Repeat Text Left</style>
+          <text><sym>segno</sym></text>
+          <label>segno</label>
+          </Marker>
         <Beam id="3">
           </Beam>
         <Chord>
@@ -1619,6 +1626,12 @@
           </Chord>
         </Measure>
       <Measure number="23">
+        <Marker>
+          <pos x="-7.64937" y="8.79911"/>
+          <style>Repeat Text Right</style>
+          <text>Fine</text>
+          <label>fine</label>
+          </Marker>
         <Beam id="27">
           </Beam>
         <Chord>
@@ -2793,6 +2806,15 @@
           </Chord>
         </Measure>
       <Measure number="40">
+        <Jump>
+          <pos x="0" y="18.9983"/>
+          <style>Repeat Text Right</style>
+          <text>D.S. al Fine</text>
+          <jumpTo>segno</jumpTo>
+          <playUntil>fine</playUntil>
+          <continueAt></continueAt>
+          <playRepeats>0</playRepeats>
+          </Jump>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2841,6 +2863,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>end</subtype>
+          <span>2</span>
+          </BarLine>
         <tick>56160</tick>
         <Chord>
           <track>1</track>
@@ -2910,10 +2936,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>double</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       <Measure number="2">
         <Rest>
