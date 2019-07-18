@@ -64,6 +64,7 @@
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
+        <barLineSpan>2</barLineSpan>
         </Staff>
       <trackName>piano</trackName>
       <Instrument>
@@ -78,6 +79,7 @@
       <Staff id="2">
         <StaffType group="pitched">
           </StaffType>
+        <barLineSpan>0</barLineSpan>
         </Staff>
       <trackName>piano</trackName>
       <Instrument>
@@ -132,6 +134,11 @@
           </Rest>
         </Measure>
       <Measure number="5">
+        <Marker>
+          <style>Repeat Text Left</style>
+          <text><sym>segno</sym></text>
+          <label>segno</label>
+          </Marker>
         <Harmony>
           <name>V7</name>
           </Harmony>
@@ -166,8 +173,8 @@
           <durationType>eighth</durationType>
           <Beam>1</Beam>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1223,6 +1230,15 @@
           </Chord>
         </Measure>
       <Measure number="20">
+        <Jump>
+          <pos x="0.475827" y="21.2204"/>
+          <style>Repeat Text Right</style>
+          <text>D.S. al Fine</text>
+          <jumpTo>segno</jumpTo>
+          <playUntil>fine</playUntil>
+          <continueAt></continueAt>
+          <playRepeats>0</playRepeats>
+          </Jump>
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -1294,6 +1310,10 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>double</subtype>
+          <span>2</span>
+          </BarLine>
         </Measure>
       </Staff>
     <Staff id="2">
