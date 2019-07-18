@@ -6,7 +6,7 @@
 
 # Remaining errors
 
-* Repeated identical symbols
+* ~~Repeated identical symbols~~
 * Organ points miss ending brackets
 * Suspensions have been annotated as organ points
 * @none wherever only one voice is sounding
