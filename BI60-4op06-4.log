@@ -1,9 +1,18 @@
-Attempting to parse BI60-4op06-4.mscx
-Done parsing BI60-4op06-4.mscx
+INFO     BI60-4op06-4.ms3 -- Attempting to parse BI60-4op06-4.mscx
+WARNING  BI60-4op06-4.ms3 -- Repeat missing in the last measure.
+INFO     BI60-4op06-4.ms3 -- Done parsing BI60-4op06-4.mscx
 
-The following chords could not be parsed:
+WARNING  BI60-4op06-4.expand_labels -- The following chords could not be parsed:
     mc  mn onset   label
 0    1   0   1/2  .eb.i[
 42  17  16   1/2    i[\\
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+ERROR    BI60-4op06-4.expand_labels -- Are you expanding labels of several pieces in the same DataFrame? In that case, define 'groupby()' parameters.
+ERROR    BI60-4op06-4 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "parallel_parse.py", line 79, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 447, in __init__
+    df = self.propagate_keys(df, add_bool=True, **key_cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 709, in propagate_keys
+    assert nunique > 0, "No global key specified. It might be that this function is being applied in a wrong groupby and gets rows instead of entire frames."
+AssertionError: No global key specified. It might be that this function is being applied in a wrong groupby and gets rows instead of entire frames.

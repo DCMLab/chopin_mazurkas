@@ -1,5 +1,5 @@
-Attempting to parse BI140.mscx
-Doublings: mc   onset
+INFO     BI140.ms3 -- Attempting to parse BI140.mscx
+WARNING  BI140.ms3 -- Doublings: mc   onset
 107  0        V7/V
      0        V7/V
      1/2        V7
@@ -7,18 +7,9 @@ Doublings: mc   onset
 108  0           I
      0           I
 Name: chords, dtype: object
-Done parsing BI140.mscx
+INFO     BI140.ms3 -- Done parsing BI140.mscx
 
-The following chords could not be parsed:
-     mc  mn onset    label
-ix                        
-29   18  17     0   .III.I
-37   25  24     0    @none
-53   34  33     0    .i.V7
-56   37  36     0    @none
-65   42  41     0  .I.ii64
-99   56  55     0   V9/III
-143  78  77     0     .i.i
-169  94  93     0   .III.I
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  BI140.expand_labels -- The following chords could not be parsed:
+    mc  mn onset   label
+ix                      
+99  56  55     0  V9/III

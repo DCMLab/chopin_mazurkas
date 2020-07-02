@@ -1,21 +1,23 @@
-Attempting to parse BI168op68-4.mscx
-Done parsing BI168op68-4.mscx
+INFO     BI168op68-4.ms3 -- Attempting to parse BI168op68-4.mscx
+INFO     BI168op68-4.ms3 -- Done parsing BI168op68-4.mscx
 
-The following chords could not be parsed:
-    mc  mn onset      label
-ix                         
-3    3   3     0      .bII7
-21  10  10   3/8       V9/V
-23  11  11     0      .bII7
-27  12  12   3/8      V9/iv
-30  13  13   1/2  .Ger6/iii
-31  14  14     0   .Fr6/iii
-34  15  15   1/2      @none
-38  17  17   1/2      @none
-42  19  19   1/4      @none
-48  21  21   1/2      @none
-57  26  26     0       .v.V
-94  39  39   1/2   .Ger6/iv
-95  40  40     0    .i.V(4)
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  BI168op68-4.expand_labels -- The following chords could not be parsed:
+    mc  mn onset  label
+ix                     
+21  10  10   3/8   V9/V
+27  12  12   3/8  V9/iv
+ERROR    BI168op68-4 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "parallel_parse.py", line 79, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 452, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
+AssertionError: 2 organ points started, 0 ended! Beginnings:
+ix
+36    #III
+40    #III
+Name: pedal, dtype: object
+Endings:
+Series([], Name: pedalend, dtype: object)

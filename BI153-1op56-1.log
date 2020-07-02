@@ -1,61 +1,89 @@
-Attempting to parse BI153-1op56-1.mscx
-Done parsing BI153-1op56-1.mscx
+INFO     BI153-1op56-1.ms3 -- Attempting to parse BI153-1op56-1.mscx
+INFO     BI153-1op56-1.ms3 -- Done parsing BI153-1op56-1.mscx
 
-The following chords could not be parsed:
-      mc   mn onset       label
-ix                             
-9      4    4     0       .bVII
-14     6    6     0    .bVI[bVI
-18     8    8     0        .bVI
-20     9    9   1/2      V9/bVI
-22    10   10     0        .bVI
-26    12   12     0       .Ger6
-28    13   13     0          V9
-33    15   15     0          V9
-69    26   26     0       .bVII
-74    28   28     0    .bVI[bVI
-78    30   30     0        .bVI
-80    31   31   1/2      V9/bVI
-82    32   32     0        .bVI
-86    34   34     0       .Ger6
-88    35   35     0          V9
-93    37   37     0          V9
-120   44   44   1/2   .Ger6/bIV
-121   45   45     0  .bIV.V(64)
-129   52   52   1/2      V9/IV]
-139   60   60   1/2          V9
-148   68   68   1/4      V9/IV]
-169   81   81     0      .I.ii6
-178   84   84     0       .bVII
-183   86   86     0    .bVI[bVI
-187   88   88     0        .bVI
-189   89   89   1/2      V9/bVI
-191   90   90     0        .bVI
-195   92   92     0       .Ger6
-197   93   93     0          V9
-202   95   95     0          V9
-228  102  102   1/4       .bVI6
-230  103  103     0     .bVI.V7
-240  110  110   1/2        V9/V
-249  118  118   1/4         V9]
-259  126  126   1/2        V9/V
-275  137  137   1/4        .bV6
-277  138  138     0        .bV6
-279  138  138   1/2        .bV6
-285  140  140   1/2      .bIII6
-292  143  143     0      .I.ii6
-301  146  146     0       .bVII
-306  148  148     0    .bVI[bVI
-310  150  150     0        .bVI
-312  151  151   1/2      V9/bVI
-314  152  152     0        .bVI
-318  154  154     0       .Ger6
-320  155  155     0          V9
-325  157  157     0          V9
-352  164  164   1/4          V9
-373  176  176   1/2          V9
-418  187  187   1/8     .Fr6/vi
-464  198  198   1/4          V9
-470  200  200   1/4          V9
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  BI153-1op56-1.expand_labels -- The following chords could not be parsed:
+      mc   mn onset   label
+ix                         
+20     9    9   1/2  V9/bVI
+28    13   13     0      V9
+33    15   15     0      V9
+80    31   31   1/2  V9/bVI
+88    35   35     0      V9
+93    37   37     0      V9
+129   52   52   1/2  V9/IV]
+139   60   60   1/2      V9
+148   68   68   1/4  V9/IV]
+189   89   89   1/2  V9/bVI
+197   93   93     0      V9
+202   95   95     0      V9
+240  110  110   1/2    V9/V
+249  118  118   1/4     V9]
+259  126  126   1/2    V9/V
+312  151  151   1/2  V9/bVI
+320  155  155     0      V9
+325  157  157     0      V9
+352  164  164   1/4      V9
+373  176  176   1/2      V9
+464  198  198   1/4      V9
+470  200  200   1/4      V9
+ERROR    BI153-1op56-1 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "parallel_parse.py", line 79, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 452, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
+AssertionError: 25 organ points started, 22 ended! Beginnings:
+ix
+14     bVI
+27       V
+74     bVI
+87       V
+125      I
+130     IV
+135     IV
+140      I
+145      I
+149     IV
+154     IV
+183    bVI
+196      V
+231      I
+236      I
+241      V
+246      V
+250      I
+255      I
+260      V
+265      V
+306    bVI
+319      V
+355      I
+358      I
+Name: pedal, dtype: object
+Endings:
+ix
+25     ]
+36     ]
+85     ]
+96     ]
+133    ]
+137    ]
+143    ]
+152    ]
+168    ]
+194    ]
+205    ]
+234    ]
+238    ]
+244    ]
+253    ]
+257    ]
+263    ]
+273    ]
+317    ]
+328    ]
+356    ]
+359    ]
+Name: pedalend, dtype: object

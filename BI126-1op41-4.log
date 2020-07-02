@@ -1,16 +1,29 @@
-Attempting to parse BI126-1op41-4.mscx
-Done parsing BI126-1op41-4.mscx
+INFO     BI126-1op41-4.ms3 -- Attempting to parse BI126-1op41-4.mscx
+INFO     BI126-1op41-4.ms3 -- Done parsing BI126-1op41-4.mscx
 
-The following chords could not be parsed:
-     mc  mn onset  label
-1     2   1   1/2     V9
-10    8   7   1/2     V9
-13   10   9   1/2     V9
-22   16  15   1/2     V9
-86   42  41   1/2     V9
-89   44  43   1/2     V9
-101  52  51   1/8  @none
-103  54  53   1/2     V9
-112  60  59   1/2     V9
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  BI126-1op41-4.expand_labels -- The following chords could not be parsed:
+     mc  mn onset label
+1     2   1   1/2    V9
+10    8   7   1/2    V9
+13   10   9   1/2    V9
+22   16  15   1/2    V9
+86   42  41   1/2    V9
+89   44  43   1/2    V9
+103  54  53   1/2    V9
+112  60  59   1/2    V9
+ERROR    BI126-1op41-4.expand_labels -- iiii is not a valid scale degree.
+ERROR    BI126-1op41-4 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "parallel_parse.py", line 79, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 455, in __init__
+    ct = self.compute_chord_tones(df, expand=True, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 870, in compute_chord_tones
+    result_dict = {t: self.features2tpcs(**{a:b for a, b in zip(param_cols.keys(), t)}, bass_only=bass_only, merge_tones=not expand) for t in set(param_tuples)}
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 870, in <dictcomp>
+    result_dict = {t: self.features2tpcs(**{a:b for a, b in zip(param_cols.keys(), t)}, bass_only=bass_only, merge_tones=not expand) for t in set(param_tuples)}
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 1032, in features2tpcs
+    transp = self.rn2tpc(resolved, minor)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 1431, in rn2tpc
+    rn_step = rn_step.upper()
+AttributeError: 'NoneType' object has no attribute 'upper'

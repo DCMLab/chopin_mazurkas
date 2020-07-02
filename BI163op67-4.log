@@ -1,44 +1,21 @@
-Attempting to parse BI163op67-4.mscx
-Done parsing BI163op67-4.mscx
+INFO     BI163op67-4.ms3 -- Attempting to parse BI163op67-4.mscx
+INFO     BI163op67-4.ms3 -- Done parsing BI163op67-4.mscx
 
-The following chords could not be parsed:
-     mc  mn onset   label
-1     3   2     0   @none
-5     5   4     0   @none
-7     5   4   1/2  .Ger43
-9     6   5   1/2   @none
-14   11  10     0   @none
-18   13  12     0   @none
-20   13  12   1/2  .Ger43
-22   14  13   1/2   @none
-26   19  18     0   @none
-34   22  21   1/2   @none
-41   25  24   1/2   @none
-46   28  27     0   @none
-50   29  28   1/2   @none
-52   30  29   1/2   @none
-58   35  33     0  .I.I64
-59   36  34     0   @none
-61   37  35     0   @none
-67   40  38     0   @none
-81   47  45   1/4   @none
-84   48  46   1/2   @none
-85   49  47     0      V9
-89   50  48   1/2   @none
-90   51  49     0    .i.i
-91   52  50     0   @none
-95   54  52     0   @none
-97   54  52   1/2  .Ger43
-99   55  53   1/2   @none
-104  60  58     0   @none
-108  62  60     0   @none
-110  62  60   1/2  .Ger43
-112  63  61   1/2   @none
-116  68  66     0   @none
-124  71  69   1/2   @none
-131  74  72   1/2   @none
-136  77  75     0   @none
-140  78  76   1/2   @none
-142  79  77   1/2   @none
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  BI163op67-4.expand_labels -- The following chords could not be parsed:
+    mc  mn onset label
+85  49  47     0    V9
+ERROR    BI163op67-4 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "parallel_parse.py", line 79, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 452, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
+AssertionError: 3 organ points started, 0 ended! Beginnings:
+29     i
+76     V
+119    i
+Name: pedal, dtype: object
+Endings:
+Series([], Name: pedalend, dtype: object)

@@ -1,30 +1,34 @@
-Attempting to parse BI105-3op30-3.mscx
-Done parsing BI105-3op30-3.mscx
+INFO     BI105-3op30-3.ms3 -- Attempting to parse BI105-3op30-3.mscx
+INFO     BI105-3op30-3.ms3 -- Done parsing BI105-3op30-3.mscx
 
-The following chords could not be parsed:
-     mc  mn onset        label
-21   17  17     0           V9
-29   21  21     0         V9/i
-31   22  22   1/2         V9/i
-37   26  26     0      .bVII64
-38   27  27     0      V9/bVII
-40   28  28     0     .bVII(9)
-41   28  28   1/4      .bVII\\
-44   31  31     0        V9/VI
-50   34  34     0      .bVII64
-51   35  35     0      V9/bVII
-53   36  36     0     .bVII(9)
-54   36  36   1/4      .bVII\\
-57   39  39     0        V9/VI
-61   41  41     0  .iii.#viio2
-66   44  44   1/4        .Ger6
-76   49  49   1/4           V9
-80   51  51   1/4       V9/III
-84   53  53   1/4         V9/v
-88   55  55   1/4           V9
-91   57  57     0   .I.ii6(42)
-125  74  74     0        @none
-133  78  78     0        @none
-152  87  87     0         V[V9
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  BI105-3op30-3.expand_labels -- The following chords could not be parsed:
+     mc  mn onset    label
+21   17  17     0       V9
+29   21  21     0     V9/i
+31   22  22   1/2     V9/i
+38   27  27     0  V9/bVII
+44   31  31     0    V9/VI
+51   35  35     0  V9/bVII
+57   39  39     0    V9/VI
+76   49  49   1/4       V9
+80   51  51   1/4   V9/III
+84   53  53   1/4     V9/v
+88   55  55   1/4       V9
+152  87  87     0     V[V9
+ERROR    BI105-3op30-3 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "parallel_parse.py", line 79, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 452, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
+AssertionError: 2 organ points started, 3 ended! Beginnings:
+67     V
+162    V
+Name: pedal, dtype: object
+Endings:
+72     ]
+154    ]
+164    ]
+Name: pedalend, dtype: object
