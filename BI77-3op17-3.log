@@ -1,27 +1,6 @@
 INFO     BI77-3op17-3.ms3 -- Attempting to parse BI77-3op17-3.mscx
-ERROR    BI77-3op17-3.ms3 -- MC 43: Length of volta <Volta>
-<beginText>2.</beginText>
-<endings>2</endings>
-</Volta> not specified.
-ERROR    BI77-3op17-3.ms3 -- MC 43: Length of volta <Volta>
-<beginText>2.</beginText>
-<endings>2</endings>
-</Volta> not specified.
-ERROR    BI77-3op17-3.ms3 -- MC 43: Length of volta <Volta>
-<beginText>2.</beginText>
-<endings>2</endings>
-</Volta> not specified.
-WARNING  BI77-3op17-3.ms3 -- MC 43 has 4 Volta-nodes. Used first (1), ignored [0, 0, 0].
-ERROR    BI77-3op17-3.ms3 -- Score contains ambiguous barnumbers at measure counts 43, 85, possibly caused by MuseScore's 'Add to bar number' or 'Section break' function.
 INFO     BI77-3op17-3.ms3 -- Done parsing BI77-3op17-3.mscx
 
-WARNING  BI77-3op17-3.expand_labels -- The following chords could not be parsed:
-     mc  mn onset label
-156  51  47     0    V9
-171  62  57     0  V9/V
-179  66  61     0  V9/V
-196  74  69   1/2    V9
-199  76  71     0    V9
 ERROR    BI77-3op17-3 -- Could not expand labels due to errors:
 Traceback (most recent call last):
   File "parallel_parse.py", line 79, in parse
@@ -30,17 +9,3 @@ Traceback (most recent call last):
     df = self.propagate_pedal(df, cols=cols)
   File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
     assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
-AssertionError: 4 organ points started, 6 ended! Beginnings:
-24      V
-60     ii
-102     V
-169    II
-Name: pedal, dtype: object
-Endings:
-26     ]
-29     ]
-69     ]
-72     ]
-104    ]
-107    ]
-Name: pedalend, dtype: object

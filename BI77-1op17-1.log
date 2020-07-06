@@ -1,10 +1,6 @@
 INFO     BI77-1op17-1.ms3 -- Attempting to parse BI77-1op17-1.mscx
 INFO     BI77-1op17-1.ms3 -- Done parsing BI77-1op17-1.mscx
 
-WARNING  BI77-1op17-1.expand_labels -- The following chords could not be parsed:
-     mc  mn onset label
-90   47  46   1/2    V9
-106  55  54   1/2    V9
 ERROR    BI77-1op17-1 -- Could not expand labels due to errors:
 Traceback (most recent call last):
   File "parallel_parse.py", line 79, in parse
@@ -13,10 +9,3 @@ Traceback (most recent call last):
     df = self.propagate_pedal(df, cols=cols)
   File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
     assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
-AssertionError: 1 organ points started, 2 ended! Beginnings:
-86    I
-Name: pedal, dtype: object
-Endings:
-89     ]
-118    ]
-Name: pedalend, dtype: object
