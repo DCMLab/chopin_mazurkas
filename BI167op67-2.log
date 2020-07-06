@@ -1,20 +1,2 @@
 INFO     BI167op67-2.ms3 -- Attempting to parse BI167op67-2.mscx
 INFO     BI167op67-2.ms3 -- Done parsing BI167op67-2.mscx
-
-ERROR    BI167op67-2 -- Could not expand labels due to errors:
-Traceback (most recent call last):
-  File "parallel_parse.py", line 79, in parse
-    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 452, in __init__
-    df = self.propagate_pedal(df, cols=cols)
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
-    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
-AssertionError: 5 organ points started, 0 ended! Beginnings:
-22    V
-25    V
-28    V
-50    V
-77    V
-Name: pedal, dtype: object
-Endings:
-Series([], Name: pedalend, dtype: object)

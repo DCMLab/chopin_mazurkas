@@ -1,23 +1,2 @@
 INFO     BI168op68-4.ms3 -- Attempting to parse BI168op68-4.mscx
 INFO     BI168op68-4.ms3 -- Done parsing BI168op68-4.mscx
-
-WARNING  BI168op68-4.expand_labels -- The following chords could not be parsed:
-    mc  mn onset  label
-ix                     
-21  10  10   3/8   V9/V
-27  12  12   3/8  V9/iv
-ERROR    BI168op68-4 -- Could not expand labels due to errors:
-Traceback (most recent call last):
-  File "parallel_parse.py", line 79, in parse
-    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 452, in __init__
-    df = self.propagate_pedal(df, cols=cols)
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
-    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
-AssertionError: 2 organ points started, 0 ended! Beginnings:
-ix
-36    #III
-40    #III
-Name: pedal, dtype: object
-Endings:
-Series([], Name: pedalend, dtype: object)
