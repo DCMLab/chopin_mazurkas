@@ -18,12 +18,12 @@ Traceback (most recent call last):
     expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
   File "/home/hentsche/corpora/scripts/expand_labels.py", line 455, in __init__
     ct = self.compute_chord_tones(df, expand=True, cols=cols)
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 870, in compute_chord_tones
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 871, in compute_chord_tones
     result_dict = {t: self.features2tpcs(**{a:b for a, b in zip(param_cols.keys(), t)}, bass_only=bass_only, merge_tones=not expand) for t in set(param_tuples)}
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 870, in <dictcomp>
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 871, in <dictcomp>
     result_dict = {t: self.features2tpcs(**{a:b for a, b in zip(param_cols.keys(), t)}, bass_only=bass_only, merge_tones=not expand) for t in set(param_tuples)}
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 1032, in features2tpcs
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 1035, in features2tpcs
     transp = self.rn2tpc(resolved, minor)
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 1431, in rn2tpc
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 1434, in rn2tpc
     rn_step = rn_step.upper()
 AttributeError: 'NoneType' object has no attribute 'upper'
