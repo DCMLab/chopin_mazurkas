@@ -1,2 +1,46 @@
 INFO     BI89-4op24-4.ms3 -- Attempting to parse BI89-4op24-4.mscx
 INFO     BI89-4op24-4.ms3 -- Done parsing BI89-4op24-4.mscx
+
+ERROR    BI89-4op24-4 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "scripts/parallel_parse.py", line 79, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 745, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
+AssertionError: 15 organ points started, 16 ended! Beginnings:
+23       i
+89       i
+95     III
+100      V
+109      i
+114    III
+118      V
+200      i
+206    III
+211      V
+220      i
+225    III
+229      V
+255      I
+266      I
+Name: pedal, dtype: object
+Endings:
+29     ]
+44     ]
+90     ]
+96     ]
+104    ]
+110    ]
+115    ]
+123    ]
+201    ]
+207    ]
+215    ]
+221    ]
+226    ]
+234    ]
+262    ]
+271    ]
+Name: pedalend, dtype: object
