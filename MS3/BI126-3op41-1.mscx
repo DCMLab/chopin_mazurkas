@@ -4048,9 +4048,6 @@
             <Articulation>
               <subtype>articAccentAbove</subtype>
               </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <Spanner type="Tie">
@@ -4310,9 +4307,6 @@
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <Articulation>
               <subtype>articAccentAbove</subtype>
               </Articulation>
@@ -4940,9 +4934,8 @@
                   </Tie>
                 <next>
                   <location>
-                    <measures>6</measures>
-                    <fractions>3/16</fractions>
-                    <notes>-1</notes>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -4987,12 +4980,23 @@
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>24</tpc>
               </Note>
             <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>70</pitch>
+              <tpc>24</tpc>
               </Note>
             </Chord>
           <Harmony>
@@ -5011,6 +5015,17 @@
               </Note>
             </Chord>
           <Chord>
+            <durationType>eighth</durationType>
+            <acciaccatura/>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
@@ -5020,14 +5035,6 @@
             <Note>
               <pitch>68</pitch>
               <tpc>22</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <acciaccatura/>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -5049,6 +5056,9 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -5238,31 +5248,38 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/16</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>65</pitch>
               <tpc>25</tpc>
               </Note>
             </Chord>
           <Chord>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  </location>
+                </next>
+              </Spanner>
+            <acciaccatura/>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>65</pitch>
               <tpc>25</tpc>
               </Note>
@@ -5288,6 +5305,9 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>65</pitch>
@@ -5650,15 +5670,9 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-6</measures>
-                    <fractions>-3/16</fractions>
-                    <notes>1</notes>
-                    </location>
-                  </prev>
-                </Spanner>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>70</pitch>
               <tpc>24</tpc>
               </Note>
@@ -8516,6 +8530,11 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0" y="10.619"/>
+              </Articulation>
             <Note>
               <pitch>85</pitch>
               <tpc>21</tpc>
@@ -8531,6 +8550,11 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="-0.349501" y="10.4431"/>
+              </Articulation>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -8550,6 +8574,11 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="-0.524251" y="9.7505"/>
+              </Articulation>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -9005,9 +9034,6 @@
             <Articulation>
               <subtype>articAccentBelow</subtype>
               </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
@@ -9407,9 +9433,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>65</pitch>
@@ -9512,9 +9535,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <Articulation>
               <subtype>articAccentBelow</subtype>
               </Articulation>
@@ -9668,11 +9688,15 @@
             <HairPin>
               <subtype>2</subtype>
               <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="-0.959806" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-3/16</fractions>
+                <fractions>1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -9714,6 +9738,13 @@
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -9774,14 +9805,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>3/16</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -9879,6 +9902,7 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
+              <offset x="0" y="0.5"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -10083,6 +10107,9 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>67</pitch>
@@ -10206,6 +10233,9 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>66</pitch>
@@ -10307,6 +10337,9 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>69</pitch>
@@ -10634,15 +10667,8 @@
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="-0.17475" y="10.4431"/>
               </Articulation>
             <Note>
               <pitch>68</pitch>
@@ -10718,15 +10744,8 @@
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0" y="10.4431"/>
               </Articulation>
             <Note>
               <pitch>64</pitch>
@@ -10796,15 +10815,8 @@
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="-0.17475" y="10.7926"/>
               </Articulation>
             <Note>
               <pitch>68</pitch>
@@ -10942,12 +10954,7 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <offset x="0" y="1.2"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -11037,12 +11044,7 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <offset x="0" y="1.1"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -17027,15 +17029,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -17080,15 +17073,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>51</pitch>
@@ -17139,15 +17123,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -17195,15 +17170,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>51</pitch>
@@ -17251,12 +17217,6 @@
             <Articulation>
               <subtype>articAccentAbove</subtype>
               </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -17301,15 +17261,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>51</pitch>
@@ -17360,15 +17311,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -17420,15 +17362,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -17484,15 +17417,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -17548,15 +17472,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -17612,15 +17527,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -17681,15 +17587,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -17756,18 +17653,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -17995,18 +17880,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <Note>
               <pitch>44</pitch>
               <tpc>22</tpc>
@@ -18079,18 +17952,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <Note>
               <pitch>40</pitch>
               <tpc>18</tpc>
@@ -18157,18 +18018,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <Note>
               <pitch>44</pitch>
               <tpc>22</tpc>
@@ -18279,12 +18128,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>45</pitch>
@@ -18340,12 +18183,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
@@ -18409,9 +18246,7 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <offset x="0" y="-1.4"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -18470,9 +18305,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
-              </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0" y="-10.0752"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
