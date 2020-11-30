@@ -39,8 +39,8 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 | 115           | Op. 33 No. 2        | D                 | major | 1837-38 |                                                     |            |
 | 115           | Op. 33 No. 3        | C                 | major | 1837-38 |                                                     |            |
 | 115           | Op. 33 No. 4        | B                 | minor | 1837-38 |                                                     |            |
-| 126           | Op. 41 No. 1        | C sharp           | minor | 1839    |                                                     |            |
-| 122           | Op. 41 No. 2        | E                 | minor | 1838    |                                                     |            |
+| 126           | Op. 41 No. 1        | C sharp           | minor | 1839    |                                                     |   Ji Won   |
+| 122           | Op. 41 No. 2        | E                 | minor | 1838    |                                                     |   Ji Won |
 | 126           | Op. 41 No. 3        | B                 | major | 1839    |                                                     |            |
 | 126           | Op. 41 No. 4        | A flat            | major | 1839    |                                                     |            |
 | 134           | None                | A                 | minor | 1840    |                                                     |            |
