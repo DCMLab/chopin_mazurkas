@@ -6,9 +6,9 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 |---------------|---------------------|-------------------|-------|---------|-----------------------------------------------------|------------|
 | 16 No. 1      | None                | G                 | major | 1826    | https://imslp.org/wiki/Special:ReverseLookup/136263 |  Cédric    |
 | 16 No. 2      | None                | B flat            | major | 1826    | https://imslp.org/wiki/Special:ReverseLookup/136264 |  Cédric    |
-| 18            | Op. posth. 68 No. 2 | A                 | minor | 1827    |                                                     |            |
-| 34            | Op. posth. 68 No. 3 | F                 | major | 1829    |                                                     |            |
-| 38            | Op. posth. 68 No. 1 | C                 | major | 1829    |                                                     |            |
+| 18            | Op. posth. 68 No. 2 | A                 | minor | 1827    |                                                     |  Clément   |
+| 34            | Op. posth. 68 No. 3 | F                 | major | 1829    |                                                     |  Clément   |
+| 38            | Op. posth. 68 No. 1 | C                 | major | 1829    |                                                     |  Clément   |
 | 60            | Op. 6 No. 1         | F sharp           | minor | 1830    |                                                     |            |
 | 60            | Op. 6 No. 2         | C sharp           | minor | 1830    |                                                     |            |
 | 60            | Op. 6 No. 3         | E                 | major | 1830    |                                                     |            |
