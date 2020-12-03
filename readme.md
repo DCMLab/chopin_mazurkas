@@ -9,10 +9,10 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 | 18            | Op. posth. 68 No. 2 | A                 | minor | 1827    |                                                     |  Clément   |
 | 34            | Op. posth. 68 No. 3 | F                 | major | 1829    |                                                     |  Clément   |
 | 38            | Op. posth. 68 No. 1 | C                 | major | 1829    |                                                     |  Clément   |
-| 60            | Op. 6 No. 1         | F sharp           | minor | 1830    |                                                     |            |
-| 60            | Op. 6 No. 2         | C sharp           | minor | 1830    |                                                     |            |
-| 60            | Op. 6 No. 3         | E                 | major | 1830    |                                                     |            |
-| 60            | Op. 6 No. 4         | E flat            | minor | 1830    |                                                     |            |
+| 60            | Op. 6 No. 1         | F sharp           | minor | 1830    |                                                     |  Cédric    |
+| 60            | Op. 6 No. 2         | C sharp           | minor | 1830    |                                                     |  Cédric    |
+| 60            | Op. 6 No. 3         | E                 | major | 1830    |                                                     |  Cédric    |
+| 60            | Op. 6 No. 4         | E flat            | minor | 1830    |                                                     |  Cédric    |
 | 61            | Op. 7 No. 1         | B flat            | major | 1830-31 |                                                     |            |
 | 61            | Op. 7 No. 2         | A                 | minor | 1830-31 |                                                     |            |
 | 61            | Op. 7 No. 3         | F                 | minor | 1830-31 |                                                     |            |
