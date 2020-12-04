@@ -13,11 +13,11 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 | 60            | Op. 6 No. 2         | C sharp           | minor | 1830    |                                                     |  Cédric    |
 | 60            | Op. 6 No. 3         | E                 | major | 1830    |                                                     |  Cédric    |
 | 60            | Op. 6 No. 4         | E flat            | minor | 1830    |                                                     |  Cédric    |
-| 61            | Op. 7 No. 1         | B flat            | major | 1830-31 |                                                     |            |
-| 61            | Op. 7 No. 2         | A                 | minor | 1830-31 |                                                     |            |
-| 61            | Op. 7 No. 3         | F                 | minor | 1830-31 |                                                     |            |
-| 61            | Op. 7 No. 4         | A flat            | major | 1830-31 |                                                     |            |
-| 61            | Op. 7 No. 5         | C                 | major | 1830-31 |                                                     |            |
+| 61            | Op. 7 No. 1         | B flat            | major | 1830-31 |                                                     |  Clément   |
+| 61            | Op. 7 No. 2         | A                 | minor | 1830-31 |                                                     |  Clément   |
+| 61            | Op. 7 No. 3         | F                 | minor | 1830-31 |                                                     |  Clément   |
+| 61            | Op. 7 No. 4         | A flat            | major | 1830-31 |                                                     |  Clément   |
+| 61            | Op. 7 No. 5         | C                 | major | 1830-31 |                                                     |  Clément   |
 | 71            | None                | D                 | major | 1832    | https://imslp.org/wiki/Special:ReverseLookup/97082  |            |
 | 73 'Wolowska' | None                | B flat            | major | 1832    | https://imslp.org/wiki/Special:ReverseLookup/97084  |            |
 | 77            | Op. 17 No. 1        | B flat            | major | 1832-32 |                                                     |            |
