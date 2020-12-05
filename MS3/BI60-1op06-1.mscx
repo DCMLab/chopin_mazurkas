@@ -155,14 +155,14 @@
             <subtype>other-dynamics</subtype>
             <velocity>49</velocity>
             <offset x="-0.15" y="5.5"/>
-            <text><i></i><font face="ScoreText"/></text>
+            <text><i></i><font face="ScoreText"></font></text>
             </Dynamic>
           <Tempo>
             <tempo>2.2</tempo>
             <followText>1</followText>
             <minDistance>0.369113</minDistance>
             <offset x="-7.08264" y="-2.80911"/>
-            <text><b>( </b><font face="ScoreText"/><b><font face="FreeSerif"/> = 132)</b></text>
+            <text><b>( </b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 132)</b></text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -183,7 +183,7 @@
               </Spanner>
             <Articulation>
               <subtype>articAccentBelow</subtype>
-              <offset x="0.133635" y="0.773376"/>
+              <offset x="0.133635" y="1.07338"/>
               </Articulation>
             <Note>
               <Spanner type="Tie">
@@ -355,11 +355,22 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <style>Expression</style>
-            <placement>below</placement>
-            <text>cresc.</text>
-            </StaffText>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="-0.144832" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -374,6 +385,13 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -803,11 +821,23 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <style>Expression</style>
-            <placement>below</placement>
-            <text>decresc.</text>
-            </StaffText>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>3</subtype>
+              <endText></endText>
+              <beginText>decresc.</beginText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="-0.428046" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/12</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -819,6 +849,13 @@
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/12</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1392,12 +1429,6 @@
           <Harmony>
             <name>i</name>
             </Harmony>
-          <StaffText>
-            <style>Expression</style>
-            <placement>below</placement>
-            <offset x="-0.400904" y="4.82613"/>
-            <text>cresc.</text>
-            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -1405,6 +1436,22 @@
                 <fractions>1/4</fractions>
                 </location>
               </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0.60545" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
             </Spanner>
           <Beam>
             </Beam>
@@ -1423,6 +1470,13 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -2600,7 +2654,7 @@
             <subtype>other-dynamics</subtype>
             <velocity>126</velocity>
             <offset x="0" y="5.35"/>
-            <text><i></i><font face="ScoreText"/></text>
+            <text><i></i><font face="ScoreText"></font></text>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -2639,7 +2693,6 @@
                 <offset x="0" y="4.1"/>
                 <off2 x="0" y="0"/>
                 <minDistance>-0.0499995</minDistance>
-                <offset x="0" y="4.1"/>
                 </Segment>
               </HairPin>
             <next>
@@ -2825,7 +2878,6 @@
                 <offset x="-0.75" y="4.4"/>
                 <off2 x="0" y="0"/>
                 <minDistance>-0.0499995</minDistance>
-                <offset x="-0.75" y="4.4"/>
                 </Segment>
               </HairPin>
             <next>
@@ -3013,7 +3065,7 @@
           <StaffText>
             <minDistance>0.0779382</minDistance>
             <offset x="-9.35206" y="-5.39794"/>
-            <text><font size="12"/>Tempo I°</text>
+            <text><font size="12"></font>Tempo I°</text>
             </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -3124,12 +3176,22 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <style>Expression</style>
-            <placement>below</placement>
-            <text>cresc.
-</text>
-            </StaffText>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0.552749" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -3144,6 +3206,13 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -3181,10 +3250,7 @@
           </voice>
         <voice>
           <location>
-            <fractions>1/4</fractions>
-            </location>
-          <location>
-            <fractions>1/4</fractions>
+            <fractions>1/2</fractions>
             </location>
           <Chord>
             <durationType>quarter</durationType>
@@ -3516,11 +3582,22 @@
             <name>V7/V</name>
             <offset x="0.486567" y="-2.33497"/>
             </Harmony>
-          <StaffText>
-            <style>Expression</style>
-            <placement>below</placement>
-            <text>dim.</text>
-            </StaffText>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>3</subtype>
+              <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="-0.509604" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -3532,6 +3609,13 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -4182,16 +4266,6 @@
               <subtype>articAccentAbove</subtype>
               </Articulation>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -4199,10 +4273,7 @@
           </voice>
         <voice>
           <location>
-            <fractions>1/4</fractions>
-            </location>
-          <location>
-            <fractions>1/4</fractions>
+            <fractions>1/2</fractions>
             </location>
           <Chord>
             <durationType>quarter</durationType>
@@ -4230,12 +4301,22 @@
             <minDistance>-0.167638</minDistance>
             <offset x="-0.133635" y="-4.58711"/>
             </Harmony>
-          <StaffText>
-            <style>Expression</style>
-            <placement>below</placement>
-            <offset x="0.106066" y="5.23386"/>
-            <text>cresc.</text>
-            </StaffText>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="-0.708057" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/12</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -4255,6 +4336,13 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/12</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -4503,7 +4591,6 @@
                 <subtype>0</subtype>
                 <offset x="2.54558" y="3.5"/>
                 <off2 x="-2.54558" y="0"/>
-                <offset x="2.54558" y="3.5"/>
                 </Segment>
               </HairPin>
             <next>
@@ -4567,7 +4654,6 @@
                 <offset x="0.106066" y="3.52467"/>
                 <off2 x="-3.07591" y="0"/>
                 <minDistance>0.16967</minDistance>
-                <offset x="0.106066" y="3.52467"/>
                 </Segment>
               </HairPin>
             <next>
@@ -9184,6 +9270,8 @@
                   </SlurSegment>
                 <SlurSegment no="1">
                   <o1 x="-1.05" y="-0.6"/>
+                  <o2 x="-0.225" y="1.05"/>
+                  <o3 x="-0.225" y="1.05"/>
                   </SlurSegment>
                 </Slur>
               <next>
