@@ -93,6 +93,7 @@
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
+        <bracket type="1" span="2" col="0"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>piano</trackName>
@@ -4058,6 +4059,13 @@
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 </Slur>
               <next>
@@ -4066,13 +4074,6 @@
                   <fractions>-1/4</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <pitch>67</pitch>
@@ -11259,7 +11260,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <up>up</up>
                   </Tie>
                 <next>
                   <location>
@@ -11325,7 +11325,6 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <up>up</up>
                   </Tie>
                 <next>
                   <location>
