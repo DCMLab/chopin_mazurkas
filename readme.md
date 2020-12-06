@@ -18,12 +18,12 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 | 61            | Op. 7 No. 3         | F                 | minor | 1830-31 |                                                     |  Clément   |
 | 61            | Op. 7 No. 4         | A flat            | major | 1830-31 |                                                     |  Clément   |
 | 61            | Op. 7 No. 5         | C                 | major | 1830-31 |                                                     |  Clément   |
-| 71            | None                | D                 | major | 1832    | https://imslp.org/wiki/Special:ReverseLookup/97082  |            |
-| 73 'Wolowska' | None                | B flat            | major | 1832    | https://imslp.org/wiki/Special:ReverseLookup/97084  |            |
-| 77            | Op. 17 No. 1        | B flat            | major | 1832-32 |                                                     |            |
-| 77            | Op. 17 No. 2        | E                 | minor | 1832-32 |                                                     |            |
-| 77            | Op. 17 No. 3        | A flat            | major | 1832-32 |                                                     |            |
-| 77            | Op. 17 No. 4        | A                 | minor | 1832-32 |                                                     |            |
+| 71            | None                | D                 | major | 1832    | https://imslp.org/wiki/Special:ReverseLookup/97082  |  Clément   |
+| 73 'Wolowska' | None                | B flat            | major | 1832    | https://imslp.org/wiki/Special:ReverseLookup/97084  |  Clément   |
+| 77            | Op. 17 No. 1        | B flat            | major | 1832-32 |                                                     |  Clément   |
+| 77            | Op. 17 No. 2        | E                 | minor | 1832-32 |                                                     |  Clément   |
+| 77            | Op. 17 No. 3        | A flat            | major | 1832-32 |                                                     |  Clément   |
+| 77            | Op. 17 No. 4        | A                 | minor | 1832-32 |                                                     |  Clément   |
 | 82            | None                | C                 | major | 1833    |                                                     |            |
 | 85            | None                | A flat            | major | 1834    | https://imslp.org/wiki/Special:ReverseLookup/97088  |            |
 | 89            | Op. 24 No. 1        | G                 | minor | 1834-35 |                                                     |            |
