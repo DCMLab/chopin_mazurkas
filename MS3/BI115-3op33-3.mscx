@@ -141,6 +141,11 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <SystemText>
+            <swing unit="eighth" ratio= "60"/>
+            <style>Tempo</style>
+            <text>Semplice</text>
+            </SystemText>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -700,6 +705,16 @@
           <Harmony>
             <name>V7(9)/V</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -769,9 +784,6 @@
             <Articulation>
               <subtype>articAccentBelow</subtype>
               </Articulation>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>66</pitch>
@@ -820,6 +832,13 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -1552,6 +1571,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4719,6 +4742,9 @@
             </Clef>
           <Chord>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>69</pitch>
