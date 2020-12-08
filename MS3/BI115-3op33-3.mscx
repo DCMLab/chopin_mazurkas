@@ -1555,9 +1555,9 @@
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               </Articulation>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -2856,6 +2856,9 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -3247,7 +3250,6 @@
           </voice>
         <voice>
           <Chord>
-            <dots>1</dots>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -3543,6 +3545,9 @@
             </Chord>
           <Chord>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>66</pitch>
@@ -3588,6 +3593,7 @@
             <name>V7\\</name>
             </Harmony>
           <Rest>
+            <offset x="0" y="1"/>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             </Rest>
@@ -3595,6 +3601,11 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o1 x="-0.704022" y="-0.117337"/>
+                  <o4 x="0.528017" y="0.162691"/>
+                  <offset x="-0.5" y="-0.4"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3616,12 +3627,11 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -4769,6 +4779,7 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -4983,6 +4994,7 @@
       <Measure>
         <voice>
           <Rest>
+            <offset x="0" y="-1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -5107,7 +5119,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="2"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -5785,9 +5797,13 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Rest>
+          <Chord>
             <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
           </voice>
         <voice>
           <Chord>
@@ -5796,14 +5812,6 @@
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
               </Note>
             </Chord>
           </voice>
@@ -5886,6 +5894,9 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -6272,7 +6283,7 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
