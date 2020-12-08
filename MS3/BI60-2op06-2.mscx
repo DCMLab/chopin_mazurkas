@@ -1,11 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.0.5</programVersion>
-  <programRevision>58dd23d</programRevision>
+  <programVersion>3.5.2</programVersion>
+  <programRevision>465e7b6</programRevision>
   <Score>
-    <LayerTag id="0" tag="default" />
+    <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
-    <Synthesizer>
-      </Synthesizer>
     <Division>480</Division>
     <Style>
       <pageWidth>8.26771</pageWidth>
@@ -23,7 +22,8 @@
       <clefLeftMargin>0.64</clefLeftMargin>
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
       <barNoteDistance>1.2</barNoteDistance>
-      <chordSymbolPosBelow x="0" y="-4" />
+      <harmonyPlay>0</harmonyPlay>
+      <chordSymbolPosBelow x="0" y="-4"/>
       <defaultFramePadding>0.5</defaultFramePadding>
       <defaultFrameWidth>0.2</defaultFrameWidth>
       <defaultFrameRound>25</defaultFrameRound>
@@ -58,7 +58,7 @@
       <systemFrameWidth>0.2</systemFrameWidth>
       <systemFrameRound>25</systemFrameRound>
       <staffAlign>left,top</staffAlign>
-      <staffPosAbove x="0" y="-4" />
+      <staffPosAbove x="0" y="-4"/>
       <staffFramePadding>0.5</staffFramePadding>
       <staffFrameWidth>0.2</staffFrameWidth>
       <staffFrameRound>25</staffFrameRound>
@@ -74,31 +74,35 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="arranger" />
-    <metaTag name="composer" />
-    <metaTag name="copyright" />
+    <metaTag name="arranger"></metaTag>
+    <metaTag name="composer">Frédéric Chopin</metaTag>
+    <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-02-08</metaTag>
-    <metaTag name="lyricist" />
-    <metaTag name="movementNumber" />
-    <metaTag name="movementTitle" />
+    <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
-    <metaTag name="poet" />
-    <metaTag name="source" />
-    <metaTag name="translator" />
-    <metaTag name="workNumber" />
-    <metaTag name="workTitle" />
+    <metaTag name="poet"></metaTag>
+    <metaTag name="source"></metaTag>
+    <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
+    <metaTag name="workTitle">4 Mazurkas, op. 6</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
+        <bracket type="1" span="2" col="0"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>piano</trackName>
       <Instrument>
-        <longName>piano</longName>
-        <trackName />
+        <trackName></trackName>
         <Channel>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -111,8 +115,7 @@
         </Staff>
       <trackName>piano</trackName>
       <Instrument>
-        <longName>piano</longName>
-        <trackName />
+        <trackName></trackName>
         <Channel>
           <synti>Fluid</synti>
           </Channel>
@@ -121,6 +124,18 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <Text>
+          <style>Title</style>
+          <text>4 Mazurkas, op. 6</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>Mazurka in F sharp minor, op. 6 no. 1</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Frédéric Chopin</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -135,7 +150,11 @@
           <Harmony>
             <name>.c#.V</name>
             </Harmony>
-          <Dynamic><subtype>p</subtype><velocity>49</velocity></Dynamic><Chord>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -312,7 +331,7 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <durationType>half</durationType>
             <Articulation>
@@ -604,7 +623,7 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -620,7 +639,7 @@
           </voice>
         </Measure>
       <Measure len="1/4">
-        <startRepeat />
+        <startRepeat/>
         <irregular>1</irregular>
         <voice>
           <Chord>
@@ -806,7 +825,7 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -925,9 +944,13 @@
             </Chord>
           <Harmony>
             <name>#viio65</name>
-            <offset x="-0.126665" y="-5.89998" />
+            <offset x="-0.126665" y="-5.89998"/>
             </Harmony>
-          <Dynamic><subtype>f</subtype><velocity>96</velocity></Dynamic><Chord>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
+          <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1005,7 +1028,7 @@
           </voice>
         </Measure>
       <Measure len="1/4">
-        <startRepeat />
+        <startRepeat/>
         <irregular>1</irregular>
         <voice>
           <Harmony>
@@ -1277,7 +1300,7 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Harmony>
             <name>V7</name>
             </Harmony>
@@ -1737,7 +1760,7 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -1768,10 +1791,14 @@
           <Harmony>
             <name>V65/v</name>
             </Harmony>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
-          <Dynamic><subtype>f</subtype><velocity>96</velocity></Dynamic><Chord>
+          <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
@@ -1950,7 +1977,11 @@
       <Measure len="1/4">
         <irregular>1</irregular>
         <voice>
-          <Dynamic><subtype>p</subtype><velocity>49</velocity></Dynamic><Chord>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -2182,7 +2213,11 @@
             </Chord>
           </voice>
         <voice>
-          <Dynamic><subtype>p</subtype><velocity>49</velocity></Dynamic><Chord>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -2410,10 +2445,14 @@
           <Harmony>
             <name>IV6/V</name>
             </Harmony>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
-          <Dynamic><subtype>f</subtype><velocity>96</velocity></Dynamic><Chord>
+          <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
@@ -3017,7 +3056,11 @@
           <Harmony>
             <name>V</name>
             </Harmony>
-          <Dynamic><subtype>pp</subtype><velocity>33</velocity></Dynamic><Chord>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
+          <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -3096,7 +3139,7 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <durationType>half</durationType>
             <Articulation>
@@ -3388,7 +3431,7 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -3419,10 +3462,14 @@
           <Harmony>
             <name>V65</name>
             </Harmony>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
-          <Dynamic><subtype>p</subtype><velocity>49</velocity></Dynamic><Chord>
+          <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
@@ -3587,7 +3634,7 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -3703,7 +3750,7 @@
             </Chord>
           <Harmony>
             <name>#viio65</name>
-            <offset x="0" y="-6.53331" />
+            <offset x="0" y="-6.53331"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3780,7 +3827,11 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Dynamic><subtype>p</subtype><velocity>49</velocity></Dynamic><Chord>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -3934,7 +3985,7 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3991,7 +4042,7 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -4019,10 +4070,14 @@
           <Harmony>
             <name>V65/v</name>
             </Harmony>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
-          <Dynamic><subtype>f</subtype><velocity>96</velocity></Dynamic><Chord>
+          <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
@@ -4348,7 +4403,7 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -4373,7 +4428,7 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -4501,7 +4556,7 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4641,7 +4696,7 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -6712,7 +6767,7 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -6737,7 +6792,7 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -6865,7 +6920,7 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -7005,7 +7060,7 @@
               <tpc>26</tpc>
               </Note>
             </Chord>
-          <endTuplet />
+          <endTuplet/>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
