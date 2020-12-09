@@ -139,6 +139,15 @@
           <Harmony>
             <name>.e.i</name>
             </Harmony>
+          <Tempo>
+            <tempo>1.18333</tempo>
+            <text>Lento, ma non troppo</text>
+            </Tempo>
+          <Tempo>
+            <tempo>2.4</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 144</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -2185,6 +2194,12 @@
           <Harmony>
             <name>V[V/V</name>
             </Harmony>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <offset x="0.163606" y="2.9563"/>
+            <text>leggiero</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -2412,6 +2427,12 @@
           <Harmony>
             <name>III.V7(6)/IV</name>
             </Harmony>
+          <StaffText>
+            <style>Expression</style>
+            <minDistance>-999</minDistance>
+            <offset x="0.472364" y="-4.28976"/>
+            <text>dolce</text>
+            </StaffText>
           <Beam>
             </Beam>
           <Chord>
@@ -4807,6 +4828,12 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <style>Expression</style>
+            <minDistance>-999</minDistance>
+            <offset x="-0.0370024" y="-0.536606"/>
+            <text>stretto</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -4996,6 +5023,12 @@
             <subtype>f</subtype>
             <velocity>96</velocity>
             </Dynamic>
+          <StaffText>
+            <style>Expression</style>
+            <minDistance>-999</minDistance>
+            <offset x="-2.29694" y="-5.80735"/>
+            <text>a tempo</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -6275,6 +6308,12 @@
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <offset x="0.163606" y="4.80885"/>
+            <text>riten.</text>
+            </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -9582,6 +9621,15 @@
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -9604,6 +9652,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -9666,6 +9721,13 @@
       <Measure>
         <voice>
           <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
@@ -9677,13 +9739,6 @@
                 <measures>1</measures>
                 </location>
               </next>
-            </Spanner>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>

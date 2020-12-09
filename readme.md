@@ -35,19 +35,19 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 | 105           | Op. 30 No. 2        | B minor / F sharp | minor | 1836-37 |                                                     |            |
 | 105           | Op. 30 No. 3        | D flat            | major | 1836-37 |                                                     |            |
 | 105           | Op. 30 No. 4        | C sharp           | minor | 1836-37 |                                                     |            |
-| 115           | Op. 33 No. 1        | G sharp           | minor | 1837-38 |                                                     |  Ji Won     |
-| 115           | Op. 33 No. 2        | D                 | major | 1837-38 |                                                     |  Ji Won     |
-| 115           | Op. 33 No. 3        | C                 | major | 1837-38 |                                                     |  Ji Won     |
-| 115           | Op. 33 No. 4        | B                 | minor | 1837-38 |                                                     |   Ji Won    |
+| 115           | Op. 33 No. 1        | G sharp           | minor | 1837-38 |                                                     |  Ji Won    |
+| 115           | Op. 33 No. 2        | D                 | major | 1837-38 |                                                     |  Ji Won    |
+| 115           | Op. 33 No. 3        | C                 | major | 1837-38 |                                                     |  Ji Won    |
+| 115           | Op. 33 No. 4        | B                 | minor | 1837-38 |                                                     |   Ji Won   |
 | 126           | Op. 41 No. 1        | C sharp           | minor | 1839    |                                                     |   Ji Won   |
 | 122           | Op. 41 No. 2        | E                 | minor | 1838    |                                                     |   Ji Won   |
 | 126           | Op. 41 No. 3        | B                 | major | 1839    |                                                     |   Ji Won   |
 | 126           | Op. 41 No. 4        | A flat            | major | 1839    |                                                     |   Ji Won   |
 | 134           | None                | A                 | minor | 1840    |                                                     |            |
 | 140           | None                | A                 | minor | 1841    |                                                     |            |
-| 145           | Op. 50 No. 1        | G                 | major | 1841-42 |                                                     |            |
-| 145           | Op. 50 No. 2        | A flat            | major | 1841-42 |                                                     |            |
-| 145           | Op. 50 No. 3        | C sharp           | minor | 1841-42 |                                                     |            |
+| 145           | Op. 50 No. 1        | G                 | major | 1841-42 |                                                     |  Clément   |
+| 145           | Op. 50 No. 2        | A flat            | major | 1841-42 |                                                     |  Clément   |
+| 145           | Op. 50 No. 3        | C sharp           | minor | 1841-42 |                                                     |  Clément   |
 | 153           | Op. 56 No. 1        | B                 | major | 1843    |                                                     |            |
 | 153           | Op. 56 No. 2        | C                 | major | 1843    |                                                     |            |
 | 153           | Op. 56 No. 3        | C                 | minor | 1843    |                                                     |            |

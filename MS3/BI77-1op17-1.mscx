@@ -145,6 +145,15 @@
             <subtype>f</subtype>
             <velocity>96</velocity>
             </Dynamic>
+          <Tempo>
+            <tempo>2.4</tempo>
+            <text>Vivo e risoluto</text>
+            </Tempo>
+          <Tempo>
+            <tempo>2.66667</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 160</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -1518,6 +1527,12 @@
           <Harmony>
             <name>V7/bIII</name>
             </Harmony>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <offset x="0.34119" y="3.56576"/>
+            <text>dim.</text>
+            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -2284,9 +2299,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
           </voice>
         </Measure>
       <Measure>
@@ -3049,6 +3061,18 @@
           <Harmony>
             <name>V7/bIII</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>3</subtype>
+              <endText></endText>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3169,6 +3193,14 @@
           <Harmony>
             <name>V7/IV</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -4016,17 +4048,10 @@
           <Harmony>
             <name>IV.I[I</name>
             </Harmony>
-          <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Lyrics>
-              <text>p</text>
-              </Lyrics>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Rest>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -4051,6 +4076,20 @@
         </Measure>
       <Measure>
         <voice>
+          <Rest>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <offset x="0.163606" y="4.80885"/>
+            <text>dolce</text>
+            </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -4710,6 +4749,12 @@
           <Harmony>
             <name>I(#4#2)</name>
             </Harmony>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <offset x="-0.191561" y="2.67785"/>
+            <text>dim.</text>
+            </StaffText>
           <Beam>
             </Beam>
           <Chord>
@@ -4993,6 +5038,9 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatissimoBelow</subtype>
+              </Articulation>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -8252,6 +8300,13 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <placement>above</placement>
+            <minDistance>-999</minDistance>
+            <offset x="0" y="-5.14119"/>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
