@@ -153,6 +153,9 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <offset x="0.254773" y="-1.65603"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -257,6 +260,8 @@
               </Spanner>
             <Articulation>
               <subtype>articAccentAbove</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0" y="0.4"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1437,7 +1442,7 @@
       <Measure>
         <voice>
           <Beam>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -1493,7 +1498,7 @@
                   </location>
                 </prev>
               </Spanner>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             <Note>
               <pitch>70</pitch>
               <tpc>24</tpc>
@@ -1826,6 +1831,7 @@
           </voice>
         <voice>
           <Rest>
+            <offset x="0" y="-1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -1949,9 +1955,6 @@
               <tpc>25</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -3933,6 +3936,7 @@
       <Measure>
         <voice>
           <Rest>
+            <offset x="0" y="1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -4202,7 +4206,6 @@
           </voice>
         <voice>
           <Chord>
-            <dots>1</dots>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <prev>
@@ -4804,6 +4807,9 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <offset x="0" y="-1.2"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5024,6 +5030,7 @@
               </next>
             </Spanner>
           <Rest>
+            <offset x="0" y="-1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -5561,6 +5568,7 @@
                   </Tie>
                 <next>
                   <location>
+                    <voices>-1</voices>
                     <measures>1</measures>
                     </location>
                   </next>
@@ -5577,16 +5585,20 @@
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <voices>1</voices>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
               <pitch>56</pitch>
               <tpc>22</tpc>
-              </Note>
-            <Note>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
-              </Note>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
               </Note>
             </Chord>
           <Spanner type="Pedal">
@@ -5607,15 +5619,13 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>52</pitch>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            <Note>
+              <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -6032,6 +6042,7 @@
       <Measure>
         <voice>
           <Rest>
+            <offset x="0" y="1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -6463,11 +6474,12 @@
             <durationType>quarter</durationType>
             </Rest>
           <Fermata>
-            <subtype>fermataAbove</subtype>
+            <subtype>fermataBelow</subtype>
+            <placement>below</placement>
             </Fermata>
           <Chord>
             <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             <Note>
               <pitch>51</pitch>
               <tpc>23</tpc>
