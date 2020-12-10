@@ -823,6 +823,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="1"/>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             </Rest>
@@ -1571,10 +1572,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
@@ -2353,6 +2350,10 @@
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
@@ -2469,9 +2470,10 @@
             <offset x="0.202199" y="-5.82739"/>
             </Harmony>
           <StaffText>
-            <offset x="3.61671" y="-4.5859"/>
+            <offset x="0.90362" y="-3.01516"/>
             <style>Expression</style>
-            <offset x="3.61671" y="-4.5859"/>
+            <minDistance>-4.42472</minDistance>
+            <offset x="0.90362" y="-3.01516"/>
             <text>ten.</text>
             </StaffText>
           <Chord>
@@ -5645,9 +5647,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -6362,7 +6361,7 @@
             <Articulation>
               <subtype>ornamentMordent</subtype>
               <minDistance>-999</minDistance>
-              <offset x="0" y="2"/>
+              <offset x="0" y="2.7"/>
               </Articulation>
             <Note>
               <pitch>59</pitch>
@@ -6384,10 +6383,6 @@
               <tpc>19</tpc>
               </Note>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
@@ -8818,10 +8813,15 @@
           <Spanner type="Ottava">
             <Ottava>
               <subtype>8va</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3"/>
+                <off2 x="3.47872" y="0"/>
+                </Segment>
               </Ottava>
             <next>
               <location>
-                <fractions>1/2</fractions>
+                <fractions>1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -8844,16 +8844,16 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           <Spanner type="Ottava">
             <prev>
               <location>
-                <fractions>-1/2</fractions>
+                <fractions>-1/4</fractions>
                 </location>
               </prev>
             </Spanner>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           </voice>
         </Measure>
       </Staff>
@@ -10164,6 +10164,10 @@
               <tpc>21</tpc>
               </Note>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
