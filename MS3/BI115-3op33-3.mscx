@@ -822,6 +822,7 @@
             <name>V7\\</name>
             </Harmony>
           <Rest>
+            <offset x="0" y="2"/>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             </Rest>
@@ -1527,6 +1528,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="2"/>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             </Rest>
@@ -3651,7 +3653,8 @@
                 </prev>
               </Spanner>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
+              <anchor>4</anchor>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -4240,6 +4243,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="1"/>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             </Rest>
@@ -4648,6 +4652,8 @@
             <durationType>half</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0" y="0.4"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -5358,6 +5364,10 @@
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>61</pitch>
               <tpc>9</tpc>
               </Note>
@@ -5496,10 +5506,18 @@
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>61</pitch>
               <tpc>9</tpc>
               </Note>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
@@ -5628,6 +5646,10 @@
               <tpc>15</tpc>
               </Note>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>61</pitch>
               <tpc>9</tpc>
               </Note>
@@ -5763,6 +5785,10 @@
               <tpc>11</tpc>
               </Note>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -5852,6 +5878,7 @@
       <Measure>
         <voice>
           <Rest>
+            <offset x="0" y="1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -6179,6 +6206,8 @@
             <durationType>half</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0" y="0.1"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -6398,6 +6427,8 @@
             <durationType>half</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0" y="0.4"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -6657,6 +6688,15 @@
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Rest>
+            <offset x="0" y="6"/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -6770,6 +6810,7 @@
       <Measure>
         <voice>
           <Rest>
+            <offset x="0" y="-1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
