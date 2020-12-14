@@ -32,9 +32,9 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 | 89            | Op. 24 No. 4        | B flat            | minor | 1834-35 |                                                     |  Clément   |
 | 93            | Op. posth. 67 No. 1 | G                 | major | 1835    |                                                     |  Clément   |
 | 93            | Op. posth. 67 No. 3 | C                 | major | 1835    |                                                     |  Clément   |
-| 105           | Op. 30 No. 2        | B minor / F sharp | minor | 1836-37 |                                                     |            |
-| 105           | Op. 30 No. 3        | D flat            | major | 1836-37 |                                                     |            |
-| 105           | Op. 30 No. 4        | C sharp           | minor | 1836-37 |                                                     |            |
+| 105           | Op. 30 No. 2        | B minor / F sharp | minor | 1836-37 |                                                     |  Cédric    |
+| 105           | Op. 30 No. 3        | D flat            | major | 1836-37 |                                                     |  Cédric    |
+| 105           | Op. 30 No. 4        | C sharp           | minor | 1836-37 |                                                     |  Cédric    |
 | 115           | Op. 33 No. 1        | G sharp           | minor | 1837-38 |                                                     |  Ji Won    |
 | 115           | Op. 33 No. 2        | D                 | major | 1837-38 |                                                     |  Ji Won    |
 | 115           | Op. 33 No. 3        | C                 | major | 1837-38 |                                                     |  Ji Won    |
