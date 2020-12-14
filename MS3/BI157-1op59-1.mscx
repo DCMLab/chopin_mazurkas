@@ -238,15 +238,22 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&lt;</text>
-              </Lyrics>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
@@ -355,6 +362,13 @@
           <Harmony>
             <name>III64</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -509,6 +523,16 @@
           <Harmony>
             <name>III</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -516,9 +540,6 @@
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&lt;</text>
-              </Lyrics>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -552,6 +573,13 @@
           <Harmony>
             <name>V64/v</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -753,6 +781,15 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -763,6 +800,13 @@
             </Chord>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <Spanner type="Tie">
@@ -1201,7 +1245,7 @@
             <name>V7/IV</name>
             </Harmony>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -1210,6 +1254,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1224,6 +1269,7 @@
             <name>V7(#6)/IV</name>
             </Harmony>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1253,6 +1299,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1280,8 +1327,18 @@
           <Harmony>
             <name>IV64</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -1297,6 +1354,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -1314,6 +1372,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1335,6 +1394,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1361,6 +1421,13 @@
           <Harmony>
             <name>V7/IV</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -1397,8 +1464,11 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -1410,6 +1480,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1421,6 +1492,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1445,7 +1517,7 @@
             <name>V7/VII</name>
             </Harmony>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -1454,6 +1526,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1462,6 +1535,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1474,6 +1548,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1485,6 +1560,7 @@
             <name>V7(#4)/VII</name>
             </Harmony>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1512,7 +1588,7 @@
             <name>V7/VII</name>
             </Harmony>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -1521,6 +1597,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1535,6 +1612,7 @@
             <name>#ivo7</name>
             </Harmony>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1547,6 +1625,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1562,6 +1641,7 @@
             <name>#ivo7(#4)</name>
             </Harmony>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1625,7 +1705,7 @@
             </Chord>
           <endTuplet/>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -1637,6 +1717,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1652,6 +1733,7 @@
             <name>@none</name>
             </Harmony>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1679,7 +1761,7 @@
             <name>v(4)</name>
             </Harmony>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -1697,6 +1779,7 @@
             <fractions>1/16</fractions>
             </location>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1712,6 +1795,7 @@
             <name>III6</name>
             </Harmony>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1721,6 +1805,7 @@
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1736,6 +1821,7 @@
             <name>V2/V</name>
             </Harmony>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -1819,9 +1905,9 @@
           <location>
             <fractions>1/4</fractions>
             </location>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -1912,6 +1998,17 @@
           <Harmony>
             <name>V7</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -1950,12 +2047,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           </voice>
         </Measure>
       <Measure>
@@ -2030,6 +2124,14 @@
           <Harmony>
             <name>III64</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -2111,11 +2213,19 @@
           <Harmony>
             <name>V7/III</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -2137,6 +2247,25 @@
           <Harmony>
             <name>@none</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -2218,6 +2347,14 @@
           <Harmony>
             <name>.Fr6/v</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2457,6 +2594,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         <voice>
           <Rest>
@@ -2530,9 +2670,6 @@
           <Harmony>
             <name>IV(9)</name>
             </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
@@ -2559,22 +2696,68 @@
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <name>I</name>
             </Harmony>
-          <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            </Rest>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           <Harmony>
             <name>IV</name>
             </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -2659,15 +2842,22 @@
           <Harmony>
             <name>V(64)</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&lt;</text>
-              </Lyrics>
             <Note>
               <pitch>61</pitch>
               <tpc>21</tpc>
@@ -2743,6 +2933,13 @@
           <Harmony>
             <name>I[V7</name>
             </Harmony>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -9951,6 +10148,14 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <voices>1</voices>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>52</pitch>
@@ -9966,6 +10171,23 @@
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <o1 x="0" y="1"/>
+                  <o2 x="-8.43769e-17" y="1.9"/>
+                  <o3 x="-8.43769e-17" y="1.9"/>
+                  <offset x="0" y="0.5"/>
+                  </SlurSegment>
+                <up>up</up>
+                </Slur>
+              <next>
+                <location>
+                  <voices>-1</voices>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>45</pitch>
@@ -10694,6 +10916,22 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-1.84678" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -10790,6 +11028,17 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           </voice>
         <voice>
           <Rest>
@@ -11256,6 +11505,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -11289,23 +11541,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -11321,56 +11556,6 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            <Note>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            <Note>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              </Note>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>45</pitch>
               <tpc>17</tpc>
@@ -11378,7 +11563,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>33</pitch>
               <tpc>17</tpc>
@@ -11390,7 +11574,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
