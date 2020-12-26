@@ -43,8 +43,8 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 | 122           | Op. 41 No. 2        | E                 | minor | 1838    |                                                     |   Ji Won   |
 | 126           | Op. 41 No. 3        | B                 | major | 1839    |                                                     |   Ji Won   |
 | 126           | Op. 41 No. 4        | A flat            | major | 1839    |                                                     |   Ji Won   |
-| 134           | None                | A                 | minor | 1840    |                                                     |            |
-| 140           | None                | A                 | minor | 1841    |                                                     |            |
+| 134           | None                | A                 | minor | 1840    |                                                     |   Cédric   |
+| 140           | None                | A                 | minor | 1841    |                                                     |   Cédric   |
 | 145           | Op. 50 No. 1        | G                 | major | 1841-42 |                                                     |  Clément   |
 | 145           | Op. 50 No. 2        | A flat            | major | 1841-42 |                                                     |  Clément   |
 | 145           | Op. 50 No. 3        | C sharp           | minor | 1841-42 |                                                     |  Clément   |
