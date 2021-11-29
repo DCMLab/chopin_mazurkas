@@ -95,6 +95,8 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 |BI157-1op59-1|     130|   279|2.1.1   |Wendelin Bitzan|AN           |
 |BI157-2op59-2|     111|   236|2.1.1   |Wendelin Bitzan|AN           |
 |BI157-3op59-3|     154|   374|2.1.1   |Wendelin Bitzan|AN           |
+|BI16-1       |      32|     0|        |               |             |
+|BI16-2       |      32|     0|        |               |             |
 |BI162-1op63-1|     102|   205|2.1.1   |Wendelin Bitzan|AN           |
 |BI162-2op63-2|      56|    91|2.1.1   |Wendelin Bitzan|AN           |
 |BI162-3op63-3|      76|   169|2.1.1   |Wendelin Bitzan|AN           |
@@ -113,10 +115,13 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 |BI61-3op07-3 |     105|   206|2.1.1   |Wendelin Bitzan|JH           |
 |BI61-4op07-4 |      44|   103|2.1.1   |Wendelin Bitzan|JH           |
 |BI61-5op07-5 |      20|    38|2.1.1   |Wendelin Bitzan|JH           |
+|BI71         |      68|     0|        |               |             |
+|BI73         |      32|     0|        |               |             |
 |BI77-1op17-1 |      60|   119|2.1.1   |Wendelin Bitzan|JH           |
 |BI77-2op17-2 |      68|   178|2.1.1   |Wendelin Bitzan|JH           |
 |BI77-3op17-3 |      81|   214|2.1.1   |Wendelin Bitzan|JH, AN       |
 |BI77-4op17-4 |     132|   223|2.1.1   |Wendelin Bitzan|JH, AN       |
+|BI85         |      57|     0|        |               |             |
 |BI89-1op24-1 |      64|   122|2.1.1   |Wendelin Bitzan|JH, AN       |
 |BI89-2op24-2 |     120|   226|2.1.1   |Wendelin Bitzan|JH           |
 |BI89-3op24-3 |      43|    63|2.1.1   |Wendelin Bitzan|JH           |
