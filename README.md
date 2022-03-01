@@ -50,7 +50,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |BI61-3op07-3 |     105|   206|2.1.1   |Wendelin Bitzan|JH           |
 |BI61-4op07-4 |      44|   103|2.1.1   |Wendelin Bitzan|JH           |
 |BI61-5op07-5 |      20|    38|2.1.1   |Wendelin Bitzan|JH           |
-|BI71         |      68|   170|        |               |             |
+|BI71         |      68|   122|        |               |             |
 |BI73         |      32|    44|1.0.0   |Wendelin Bitzan|             |
 |BI77-1op17-1 |      60|   119|2.1.1   |Wendelin Bitzan|JH           |
 |BI77-2op17-2 |      68|   178|2.1.1   |Wendelin Bitzan|JH           |
