@@ -97,7 +97,7 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 |BI157-2op59-2|     111|   236|2.1.1   |Wendelin Bitzan|AN           |
 |BI157-3op59-3|     154|   374|2.1.1   |Wendelin Bitzan|AN           |
 |BI16-1       |      32|    55|1.0.0   |Wendelin Bitzan|             |
-|BI16-2       |      32|    51|2.3.0   |Wendelin Bitzan|             |
+|BI16-2       |      32|    47|2.3.0   |Wendelin Bitzan|             |
 |BI162-1op63-1|     102|   205|2.1.1   |Wendelin Bitzan|AN           |
 |BI162-2op63-2|      56|    91|2.1.1   |Wendelin Bitzan|AN           |
 |BI162-3op63-3|      76|   169|2.1.1   |Wendelin Bitzan|AN           |
