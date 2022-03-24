@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision></programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -143,7 +143,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -207,10 +206,6 @@
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
@@ -229,6 +224,16 @@
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1.8999999999999999</tempo>
+            <text>Moderato, con anima</text>
+            </Tempo>
+          <Tempo>
+            <tempo>2.1000000000000001</tempo>
+            <followText>1</followText>
+            <family>FreeSerif</family>
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 126</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -244,15 +249,32 @@
       <Measure>
         <startRepeat/>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -260,9 +282,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -271,14 +290,18 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -307,6 +330,17 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <acciaccatura/>
@@ -318,9 +352,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -328,9 +359,14 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -340,15 +376,39 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>2</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -356,9 +416,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -366,19 +423,31 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>73</pitch>
               <tpc>9</tpc>
@@ -393,9 +462,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -403,9 +469,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -414,9 +477,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Articulation>
               <subtype>articAccentBelow</subtype>
               </Articulation>
@@ -425,6 +485,14 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -441,6 +509,13 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
               </Articulation>
@@ -460,6 +535,16 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -474,9 +559,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
@@ -485,9 +567,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -495,20 +574,34 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <endTuplet/>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -530,6 +623,17 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -541,20 +645,37 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>fz</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>fz</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Articulation>
               <subtype>articAccentAbove</subtype>
               </Articulation>
@@ -565,6 +686,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>3</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
@@ -574,15 +705,26 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>p&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -590,9 +732,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -600,19 +739,31 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>73</pitch>
               <tpc>9</tpc>
@@ -627,9 +778,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -637,9 +785,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -656,6 +801,14 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -672,6 +825,14 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-3</measures>
+                  <fractions>5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
               </Articulation>
@@ -686,11 +847,31 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -705,9 +886,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
@@ -716,9 +894,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -726,15 +901,19 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <endTuplet/>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -761,6 +940,14 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
               </Articulation>
@@ -775,24 +962,40 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>2</measures>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>fz</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>fz</text>
-              </Lyrics>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <text>dolce</text>
+            </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -832,14 +1035,22 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -848,9 +1059,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -859,9 +1067,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -870,9 +1075,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>73</pitch>
               <tpc>9</tpc>
@@ -881,9 +1083,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -891,9 +1090,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -921,20 +1117,42 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  <fractions>3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -942,6 +1160,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
@@ -952,6 +1177,15 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -959,6 +1193,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
@@ -1006,6 +1247,15 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -1013,6 +1263,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
@@ -1020,6 +1277,16 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>72</pitch>
@@ -1031,6 +1298,10 @@
       <Measure>
         <startRepeat/>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -1040,13 +1311,21 @@
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>p</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>73</pitch>
-              <tpc>9</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Beam>
@@ -1055,6 +1334,16 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -1063,6 +1352,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>73</pitch>
               <tpc>9</tpc>
               </Note>
@@ -1107,6 +1399,14 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>72</pitch>
@@ -1119,6 +1419,16 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
@@ -1189,6 +1499,14 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>72</pitch>
@@ -1201,6 +1519,16 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>70</pitch>
@@ -1263,6 +1591,14 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
@@ -1274,6 +1610,16 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -1322,6 +1668,14 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -1332,6 +1686,16 @@
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>4</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -1492,6 +1856,14 @@
             </Fermata>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-4</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -1510,6 +1882,16 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>5</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -1526,15 +1908,22 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -1542,9 +1931,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -1553,14 +1939,18 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1589,6 +1979,17 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <acciaccatura/>
@@ -1600,9 +2001,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -1610,9 +2008,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -1622,15 +2017,30 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -1638,9 +2048,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -1648,19 +2055,31 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>73</pitch>
               <tpc>9</tpc>
@@ -1675,9 +2094,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -1685,9 +2101,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -1696,9 +2109,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Articulation>
               <subtype>articAccentBelow</subtype>
               </Articulation>
@@ -1707,6 +2117,14 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1723,6 +2141,14 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-5</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
               </Articulation>
@@ -1737,11 +2163,31 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -1756,9 +2202,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
@@ -1767,9 +2210,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -1777,15 +2217,19 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <endTuplet/>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -1812,6 +2256,14 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -1823,30 +2275,58 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>fz</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>fz</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>80</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>p</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>3</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
@@ -1856,15 +2336,22 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -1872,9 +2359,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -1882,19 +2366,31 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>73</pitch>
               <tpc>9</tpc>
@@ -1909,9 +2405,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -1919,9 +2412,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -1930,14 +2420,19 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1954,6 +2449,17 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-3</measures>
+                  <fractions>5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatissimoBelow</subtype>
+              </Articulation>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -1965,11 +2471,31 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -1992,9 +2518,6 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
@@ -2003,9 +2526,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -2013,15 +2533,19 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <endTuplet/>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -2048,6 +2572,14 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -2059,24 +2591,46 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>fz</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>fz</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <text>dolce</text>
+            </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -2091,6 +2645,15 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/6</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>82</pitch>
               <tpc>12</tpc>
@@ -2106,6 +2669,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/6</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -2116,14 +2686,30 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>&gt;</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -2132,9 +2718,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -2143,9 +2726,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -2154,9 +2734,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>73</pitch>
               <tpc>9</tpc>
@@ -2165,9 +2742,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>)</text>
-              </Lyrics>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -2175,9 +2749,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>]</text>
-              </Lyrics>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -2188,6 +2766,13 @@
       <Measure>
         <endRepeat>2</endRepeat>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -2216,6 +2801,15 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -2223,14 +2817,43 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <text>l.h.</text>
+            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <o4 x="-2.2544" y="-1.80352"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -2241,6 +2864,11 @@
       <Measure>
         <irregular>1</irregular>
         <voice>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <text>dolciss.</text>
+            </StaffText>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -2264,6 +2892,23 @@
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>7</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
@@ -2438,6 +3083,11 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <text>perdendosi</text>
+            </StaffText>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -2646,6 +3296,13 @@
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-7</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -2683,6 +3340,19 @@
             <harmonyType>1</harmonyType>
             <name>V7</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -2731,6 +3401,26 @@
             <harmonyType>1</harmonyType>
             <name>I</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -2787,6 +3477,13 @@
             <harmonyType>1</harmonyType>
             <name>V7</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2811,6 +3508,15 @@
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -2825,6 +3531,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -2845,6 +3558,19 @@
             <harmonyType>1</harmonyType>
             <name>I</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -2905,6 +3631,26 @@
             <harmonyType>1</harmonyType>
             <name>IV</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -2938,6 +3684,26 @@
             <harmonyType>1</harmonyType>
             <name>V(64)</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -2965,6 +3731,9 @@
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
+            <Arpeggio>
+              <subtype>0</subtype>
+              </Arpeggio>
             </Chord>
           <Rest>
             <durationType>quarter</durationType>
@@ -2977,6 +3746,13 @@
             <harmonyType>1</harmonyType>
             <name>V7</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -3001,6 +3777,15 @@
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -3015,6 +3800,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -3035,6 +3827,19 @@
             <harmonyType>1</harmonyType>
             <name>I</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -3095,6 +3900,26 @@
             <harmonyType>1</harmonyType>
             <name>IV</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -3131,6 +3956,26 @@
             <harmonyType>1</harmonyType>
             <name>V(64)</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -3158,6 +4003,9 @@
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
+            <Arpeggio>
+              <subtype>0</subtype>
+              </Arpeggio>
             </Chord>
           <Rest>
             <durationType>quarter</durationType>
@@ -3170,6 +4018,26 @@
             <harmonyType>1</harmonyType>
             <name>V7</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3222,11 +4090,39 @@
             <harmonyType>1</harmonyType>
             <name>I\\</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <voices>1</voices>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -3243,6 +4139,16 @@
         <voice>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <voices>-1</voices>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>44</pitch>
               <tpc>10</tpc>
@@ -3256,11 +4162,39 @@
             <harmonyType>1</harmonyType>
             <name>I\\</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <voices>1</voices>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -3278,6 +4212,16 @@
         <voice>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <voices>-1</voices>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>44</pitch>
               <tpc>10</tpc>
@@ -3285,6 +4229,17 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <voices>-1</voices>
+                  <measures>1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>68</pitch>
@@ -3295,12 +4250,51 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <text>legato</text>
+            </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio7/iii</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <voices>1</voices>
+                  <measures>-1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -3323,6 +4317,20 @@
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -3342,10 +4350,19 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio7/ii</name>
-            <offset x="-0.0951655" y="-7.0453"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -3375,6 +4392,14 @@
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <role>1</role>
@@ -3401,6 +4426,15 @@
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <role>1</role>
@@ -3480,6 +4514,13 @@
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -3502,6 +4543,16 @@
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -3531,6 +4582,14 @@
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <role>1</role>
@@ -3557,6 +4616,15 @@
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <role>1</role>
@@ -3632,6 +4700,13 @@
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -3651,10 +4726,22 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio65/V</name>
-            <offset x="0" y="-5.90331"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <o4 x="0.2" y="0"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <role>1</role>
@@ -3688,6 +4775,14 @@
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -3714,6 +4809,15 @@
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -3785,6 +4889,13 @@
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -4097,6 +5208,15 @@
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -4111,6 +5231,13 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -4131,6 +5258,19 @@
             <harmonyType>1</harmonyType>
             <name>I</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4187,6 +5327,298 @@
             <harmonyType>1</harmonyType>
             <name>V7</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        <voice>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              </Note>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I+</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <pitch>37</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            <Note>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              </Note>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -4245,6 +5677,19 @@
             <harmonyType>1</harmonyType>
             <name>I</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -4305,6 +5750,26 @@
             <harmonyType>1</harmonyType>
             <name>IV</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4341,199 +5806,26 @@
             <harmonyType>1</harmonyType>
             <name>V(64)</name>
             </Harmony>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              </Note>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            <Note>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              </Note>
-            <Note>
-              <pitch>61</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        <voice>
-          <Beam>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I+</name>
-            </Harmony>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>44</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>37</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            <Note>
-              <pitch>61</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4558,6 +5850,9 @@
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
+            <Arpeggio>
+              <subtype>0</subtype>
+              </Arpeggio>
             </Chord>
           <Rest>
             <durationType>quarter</durationType>
@@ -4570,6 +5865,26 @@
             <harmonyType>1</harmonyType>
             <name>V7</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -4625,12 +5940,40 @@
             <harmonyType>1</harmonyType>
             <name>I\\</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <voices>1</voices>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -4640,18 +5983,23 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Chord>
+          <Rest>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
+            </Rest>
           </voice>
         <voice>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <voices>-1</voices>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>44</pitch>
               <tpc>10</tpc>
@@ -4665,6 +6013,26 @@
             <harmonyType>1</harmonyType>
             <name>I[I</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4702,6 +6070,26 @@
             <harmonyType>1</harmonyType>
             <name>V7</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4746,6 +6134,26 @@
             <harmonyType>1</harmonyType>
             <name>I]</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4779,6 +6187,26 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4812,6 +6240,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
