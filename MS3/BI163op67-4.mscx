@@ -166,6 +166,7 @@
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AN</metaTag>
+    <metaTag name="score_integrity">Clément Sicard</metaTag>
     <metaTag name="source">https://github.com/craigsapp/chopin-mazurkas</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber">Op. posth. 67 No. 4</metaTag>
@@ -202,6 +203,10 @@
         <trackName></trackName>
         <instrumentId>keyboard.piano</instrumentId>
         <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
@@ -2216,6 +2221,13 @@
         <noOffset>-1</noOffset>
         <voice>
           <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
               <beginText>2.</beginText>
@@ -2226,13 +2238,6 @@
                 <measures>1</measures>
                 </location>
               </next>
-            </Spanner>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
             </Spanner>
           <Beam>
             </Beam>
@@ -3267,6 +3272,18 @@
       <Measure>
         <endRepeat>2</endRepeat>
         <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -3302,7 +3319,26 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2.</beginText>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -3380,6 +3416,13 @@
             <subtype>mf</subtype>
             <velocity>80</velocity>
             </Dynamic>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -7334,6 +7377,13 @@
             <name>i\\</name>
             </Harmony>
           <Spanner type="Pedal">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
@@ -7344,13 +7394,6 @@
                 <fractions>-1/4</fractions>
                 </location>
               </next>
-            </Spanner>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
