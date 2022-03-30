@@ -1,4 +1,4 @@
-dataframe.tsv contains Wendelin Bitzan's original annotations.
+original_annotations.csv contains Wendelin Bitzan's original annotations.
 
 The TXT files contain (algorithmically but not completely) corrected versions thereof.
 
