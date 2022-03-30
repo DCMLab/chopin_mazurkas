@@ -1,7 +1,5 @@
 # Mazurkas
 
-For the 57 listed files, we have annotations. For 52 of them, scores are available in KernScores (--> folder source_files).
-
 | BI            | Op.                 | key               | key   | year(s) |
 |---------------|---------------------|-------------------|-------|---------|
 | 16 No. 1      | None                | G                 | major | 1826    |
@@ -61,13 +59,15 @@ For the 57 listed files, we have annotations. For 52 of them, scores are availab
 | 167           | Op. posth. 67 No. 2 | G                 | minor | 1849    |
 | 168           | Op. posth. 68 No. 4 | F                 | minor | 1849    |
 
-# For these annotations scores are missing:
+# These files were not available on kern and have been typeset for the DCML
 
 * BI16-1.txt
 * BI16-2.txt
 * BI71.txt
 * BI73.txt
 * BI85.txt
+
+No score available for BI82.txt
 
 
 
