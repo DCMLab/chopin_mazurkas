@@ -96,7 +96,7 @@ No score available for BI82.txt
 |BI157-1op59-1|     130|   257|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)|AN           |
 |BI157-2op59-2|     111|   208|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)|AN           |
 |BI157-3op59-3|     154|   360|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)|AN           |
-|BI16-1       |      32|    49|2.2.0   |Wendelin Bitzan                              |JH, AN       |
+|BI16-1       |      32|    50|2.2.0   |Wendelin Bitzan                              |JH, AN       |
 |BI16-2       |      32|    47|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)|AN, TS       |
 |BI162-1op63-1|     102|   173|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)|AN           |
 |BI162-2op63-2|      56|    76|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)|AN           |
