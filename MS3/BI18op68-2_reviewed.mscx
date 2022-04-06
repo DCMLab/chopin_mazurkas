@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision/>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -148,14 +148,14 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)</metaTag>
+    <metaTag name="annotators">Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1827</metaTag>
     <metaTag name="composed_start">1827</metaTag>
     <metaTag name="composer">Frédéric Chopin (1810-1849)</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-02-08</metaTag>
-    <metaTag name="harmony_version">2.2.0</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="key">A</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="mode">minor</metaTag>
@@ -165,7 +165,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">JH, AN</metaTag>
+    <metaTag name="reviewers">JH, AN, DK</metaTag>
     <metaTag name="score_integrity">Clément Sicard</metaTag>
     <metaTag name="source">https://github.com/craigsapp/chopin-mazurkas</metaTag>
     <metaTag name="translator"></metaTag>
@@ -2092,7 +2092,6 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -2101,6 +2100,7 @@
                 </Slur>
               <next>
                 <location>
+                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -3241,7 +3241,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>5/8</fractions>
+                  <grace>1</grace>
                   </location>
                 </next>
               </Spanner>
@@ -3250,7 +3250,7 @@
                 </Slur>
               <next>
                 <location>
-                  <grace>1</grace>
+                  <fractions>5/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -4545,6 +4545,13 @@
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 </Slur>
               <next>
@@ -4552,13 +4559,6 @@
                   <fractions>1/2</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <pitch>76</pitch>
@@ -5484,19 +5484,19 @@
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 </Slur>
               <next>
                 <location>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <grace16/>
             <Note>
@@ -8546,12 +8546,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i(94)/iii</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iii(94)</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -8559,12 +8553,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i/iii</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iii</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
         <voice>
@@ -8681,7 +8669,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii|PAC}</name>
+            <name>i/iii|PAC}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
