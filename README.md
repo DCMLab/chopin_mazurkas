@@ -72,60 +72,60 @@ No score available for BI82.txt
 
 
 # Overview
-|  file_name  |measures|labels|standard|                        annotators                         |   reviewers   |
-|-------------|-------:|-----:|--------|-----------------------------------------------------------|---------------|
-|BI105-2op30-2|      64|   115|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI105-3op30-3|      95|   159|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH (1-72), AN  |
-|BI105-4op30-4|     139|   232|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI115-1op33-1|      48|    90|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI115-2op33-2|     135|   202|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI115-3op33-3|      48|   119|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI115-4op33-4|     224|   380|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI122op41-2  |      68|   148|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI126-1op41-4|      74|   149|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI126-3op41-1|     139|   237|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI126-4op41-3|      78|   120|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI134        |     112|   312|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI140        |     131|   212|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI145-1op50-1|     104|   217|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI145-2op50-2|     103|   149|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI145-3op50-3|     192|   315|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI153-1op56-1|     204|   444|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI153-2op56-2|      84|   156|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI153-3op56-3|     220|   480|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |AN             |
-|BI157-1op59-1|     130|   257|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |AN             |
-|BI157-2op59-2|     111|   208|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |AN             |
-|BI157-3op59-3|     154|   360|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |AN             |
-|BI16-1       |      32|    50|2.2.0   |Wendelin Bitzan                                            |JH, AN         |
-|BI16-2       |      32|    47|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)              |AN, TS         |
-|BI162-1op63-1|     102|   173|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |AN             |
-|BI162-2op63-2|      56|    76|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |AN             |
-|BI162-3op63-3|      76|   127|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |AN             |
-|BI163op67-4  |      80|   119|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |AN             |
-|BI167op67-2  |      56|    75|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |AN             |
-|BI168op68-4  |      40|    80|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |AN             |
-|BI18op68-2   |      64|   113|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI34op68-3   |      60|   106|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI38op68-1   |      72|   138|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI60-1op06-1 |      72|   204|2.3.0   |Wendelin Bitzan (2.1.1), AJW (2.3.0), Davor Krkljus (2.3.0)|AN, AJW, JH, DK|
-|BI60-2op06-2 |      72|   104|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI60-3op06-3 |      90|   145|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI60-4op06-4 |      24|    67|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI61-1op07-1 |      64|    97|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI61-2op07-2 |      56|   114|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI61-3op07-3 |     105|   204|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI61-4op07-4 |      44|   104|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI61-5op07-5 |      20|    38|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI71         |      68|   122|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)              |AN, TS         |
-|BI73         |      32|    44|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)              |AN, TS         |
-|BI77-1op17-1 |      60|   111|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI77-2op17-2 |      68|   169|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI77-3op17-3 |      81|   211|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI77-4op17-4 |     132|   226|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI85         |      57|    91|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)              |AN, TS         |
-|BI89-1op24-1 |      64|   123|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI89-2op24-2 |     120|   219|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI89-3op24-3 |      43|    62|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI89-4op24-4 |     146|   294|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH (1-34), AN  |
-|BI93-1op67-1 |      60|    94|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
-|BI93-2op67-3 |      56|    97|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)              |JH, AN         |
+|  file_name  |measures|labels|standard|                             annotators                             |   reviewers   |
+|-------------|-------:|-----:|--------|--------------------------------------------------------------------|---------------|
+|BI105-2op30-2|      64|   115|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI105-3op30-3|      95|   159|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH (1-72), AN  |
+|BI105-4op30-4|     139|   232|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI115-1op33-1|      48|    90|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI115-2op33-2|     135|   202|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI115-3op33-3|      48|   119|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI115-4op33-4|     224|   380|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI122op41-2  |      68|   148|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI126-1op41-4|      74|   149|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI126-3op41-1|     139|   237|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI126-4op41-3|      78|   120|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI134        |     112|   312|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI140        |     131|   212|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI145-1op50-1|     104|   217|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI145-2op50-2|     103|   149|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI145-3op50-3|     192|   315|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI153-1op56-1|     204|   444|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI153-2op56-2|      84|   156|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI153-3op56-3|     220|   480|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |AN             |
+|BI157-1op59-1|     130|   257|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |AN             |
+|BI157-2op59-2|     111|   208|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |AN             |
+|BI157-3op59-3|     154|   360|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |AN             |
+|BI16-1       |      32|    50|2.2.0   |Wendelin Bitzan                                                     |JH, AN         |
+|BI16-2       |      32|    47|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)                       |AN, TS         |
+|BI162-1op63-1|     102|   173|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |AN             |
+|BI162-2op63-2|      56|    76|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |AN             |
+|BI162-3op63-3|      76|   127|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |AN             |
+|BI163op67-4  |      80|   119|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |AN             |
+|BI167op67-2  |      56|    75|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |AN             |
+|BI168op68-4  |      40|    80|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |AN             |
+|BI18op68-2   |      64|   113|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI34op68-3   |      60|   106|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI38op68-1   |      72|   138|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI60-1op06-1 |      72|   204|2.3.0   |Wendelin Bitzan (2.1.1), AJW (2.3.0), Davor Krkljus (2.3.0)         |AN, AJW, JH, DK|
+|BI60-2op06-2 |      72|   104|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI60-3op06-3 |      90|   145|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI60-4op06-4 |      24|    67|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI61-1op07-1 |      64|    97|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI61-2op07-2 |      56|   114|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI61-3op07-3 |     105|   204|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI61-4op07-4 |      44|   104|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI61-5op07-5 |      20|    38|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI71         |      68|   122|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)                       |AN, TS         |
+|BI73         |      32|    44|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)                       |AN, TS         |
+|BI77-1op17-1 |      60|   111|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI77-2op17-2 |      68|   169|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI77-3op17-3 |      81|   211|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI77-4op17-4 |     132|   226|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI85         |      57|    91|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)                       |AN, TS         |
+|BI89-1op24-1 |      64|   123|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI89-2op24-2 |     120|   219|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI89-3op24-3 |      43|    62|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
+|BI89-4op24-4 |     146|   294|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH (1-34), AN  |
+|BI93-1op67-1 |      60|    94|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK     |
+|BI93-2op67-3 |      56|    97|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN         |
