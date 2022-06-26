@@ -118,7 +118,7 @@ No score available for BI82.txt
 |BI61-5op07-5 |      20|    38|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
 |BI71         |      68|   122|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)                       |AN, TS           |
 |BI73         |      32|    44|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.3.0)                       |AN, TS           |
-|BI77-1op17-1 |      60|   111|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN           |
+|BI77-1op17-1 |      60|   112|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
 |BI77-2op17-2 |      68|   171|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
 |BI77-3op17-3 |      81|   211|2.1.1   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH, AN           |
 |BI77-4op17-4 |     132|   226|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
