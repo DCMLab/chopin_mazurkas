@@ -75,7 +75,7 @@ No score available for BI82.txt
 |  file_name  |measures|labels|standard|                             annotators                             |    reviewers    |
 |-------------|-------:|-----:|--------|--------------------------------------------------------------------|-----------------|
 |BI105-2op30-2|      64|   116|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
-|BI105-3op30-3|      95|   159|2.2.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)                       |JH (1-72), AN    |
+|BI105-3op30-3|      95|   159|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH (1-72), AN, DK|
 |BI105-4op30-4|     139|   228|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
 |BI115-1op33-1|      48|    90|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
 |BI115-2op33-2|     135|   202|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
