@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -148,14 +148,14 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0)</metaTag>
+    <metaTag name="annotators">Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1837</metaTag>
     <metaTag name="composed_start">1836</metaTag>
     <metaTag name="composer">Frédéric Chopin (1810-1849)</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-02-08</metaTag>
-    <metaTag name="harmony_version">2.2.0</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="key">D flat</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="mode">major</metaTag>
@@ -165,7 +165,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">JH (1-72), AN</metaTag>
+    <metaTag name="reviewers">JH (1-72), AN, DK</metaTag>
     <metaTag name="score_integrity">Cédric Koller</metaTag>
     <metaTag name="source">https://github.com/craigsapp/chopin-mazurkas</metaTag>
     <metaTag name="translator"></metaTag>
@@ -203,6 +203,10 @@
         <trackName></trackName>
         <instrumentId>keyboard.piano</instrumentId>
         <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
@@ -1831,10 +1835,6 @@
                   <o3 x="0.188988" y="0.661458"/>
                   <o4 x="0.188988" y="-1.03943"/>
                   </SlurSegment>
-                <SlurSegment no="1">
-                  <o2 x="-0.636396" y="3.60624"/>
-                  <o3 x="-0.636396" y="3.60624"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3252,9 +3252,14 @@
               <endText></endText>
               <dashGapLength>20</dashGapLength>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0.195208" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -4608,11 +4613,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="1">
-                  <o2 x="0.094494" y="0.661458"/>
-                  <o3 x="0.094494" y="0.661458"/>
-                  <o4 x="0" y="0.94494"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5607,15 +5607,10 @@
             <HairPin>
               <subtype>0</subtype>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="-1.18983" y="2.3"/>
                 <off2 x="1.69531" y="0"/>
                 <minDistance>-0.499999</minDistance>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -6893,7 +6888,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>.Db.V{</name>
+            <name>Db.V{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -7997,7 +7992,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -8084,7 +8079,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(b9)</name>
+            <name>V7(b9){</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -8359,7 +8354,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i}</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -8656,7 +8651,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>.bVII(9)}</name>
+            <name>I(9)/bVII}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -8690,7 +8685,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>.bVII</name>
+            <name>I/bVII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8747,9 +8742,14 @@
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="-1.77781" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
             <next>
@@ -8940,7 +8940,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI(9)}</name>
+            <name>I(9)/VI}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -8971,7 +8971,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI</name>
+            <name>I/VI</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9235,7 +9235,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>.bVII(9)}</name>
+            <name>I(9)/bVII}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -9269,7 +9269,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>.bVII</name>
+            <name>I/bVII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9967,7 +9967,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(^2)</name>
+            <name>V(#2)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -10115,7 +10115,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -10630,7 +10630,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -11704,7 +11704,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/vi</name>
+            <name>V/vi|EC</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -11907,7 +11907,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2/vi</name>
+            <name>V2/vi|EC</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -13038,7 +13038,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -13396,7 +13396,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i}</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
