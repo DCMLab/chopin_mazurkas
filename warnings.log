@@ -1,0 +1,485 @@
+Warnings encountered during the last execution of ms3 review (v1.0.2)
+=====================================================================
+
+PLAY_UNTIL_IS_MISSING_LABEL_WARNING (21, 20) ms3.Parse.chopin_mazurkas.BI61-5op07-5 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 325) jump2marker():
+	After jumping from MC 20 to segno, the music is supposed to play until label / but there is no corresponding marker in the score. Ignoring.
+WARNING  ms3.Parse.chopin_mazurkas.BI61-5op07-5 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3264) unfold_measures_table():
+	Error in the repeat structure: Did not reach the stopping value -1 in measures.next:
+	mc
+	1      (2,)
+	2      (3,)
+	3      (4,)
+	4      (5,)
+	5      (6,)
+	6      (7,)
+	7      (8,)
+	8      (9,)
+	9     (10,)
+	10    (11,)
+	11    (12,)
+	12    (13,)
+	13    (14,)
+	14    (15,)
+	15    (16,)
+	16    (17,)
+	17    (18,)
+	18    (19,)
+	19    (20,)
+	20     (5,)
+	Name: next, dtype: object
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 12) ms3.Parse.chopin_mazurkas.BI73 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 836) treat_group():
+	Volta group of MC 12 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 13) ms3.Parse.chopin_mazurkas.BI73 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 753) make_offset_col():
+	The incomplete MC 13 (timesig 3/4, act_dur 1/4) is completed by 1 incorrect duration (expected: 1/2):
+	{5: Fraction(3, 4)}
+WARNING  ms3.Parse.chopin_mazurkas.BI77-3op17-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3264) unfold_measures_table():
+	Error in the repeat structure: Did not reach the stopping value -1 in measures.next:
+	mc
+	1         (2,)
+	2         (3,)
+	3         (4,)
+	4         (5,)
+	5         (6,)
+	        ...   
+	82       (83,)
+	83    (84, 85)
+	84       (60,)
+	85       (86,)
+	86        (3,)
+	Name: next, Length: 86, dtype: object
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI105-3op30-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             9a        }{
+	            9a        }{            14a         }
+	           17a         {            20a         }
+	           21a         {            24a         }
+	            9b        }{             9b        }{
+	           17b         {            14b         }
+	           21b         {            20b         }
+	           25a         {            24b         }
+	           29a         {            28a         }
+	           33a         {            32a         }
+	           37a         {            36a         }
+	           41a         {            48a         }
+	           49a         {            56a         }
+	           57a         {            64a         }
+	           64a         {            79a        }{
+	           79a        }{            84a         }
+	           87a         {            90a         }
+	           NaN       NaN            94a         }
+WARNING  ms3.Parse.chopin_mazurkas.BI105-4op30-4 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4055) features2tpcs():
+	MC 77: Change 1 is meaningless and ignored because it concerns chord tone 1.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI105-4op30-4 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             5a        }{
+	            5a        }{            13a        }{
+	           13a        }{            20a         }
+	           21a         {            31a         }
+	           33a         {            39a         }
+	           41a         {            46a         }
+	           49a         {            55a         }
+	           57a         {            62a         }
+	           65a         {            76a         }
+	           77a         {            92a         }
+	           93a         {           109a        }{
+	          101a         {           116a         }
+	          109a        }{           139a         }
+	          117a         {            NaN       NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI134 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             8a         }
+	            8a         {            16a         }
+	           17a         {            20a         }
+	           25a         {            24a         }
+	           29a         {            28a         }
+	           65a         {            32a         }
+	           73a         {            72a         }
+	           81a         {            80a         }
+	           89a         {            88a         }
+	          105a         {           104a         }
+	          193a         {           112a         }
+	          200a         {           200a         }
+	          209a         {           208a         }
+	          213a         {           212a         }
+	          217a         {           216a         }
+	          221a         {           220a         }
+	           NaN       NaN           224a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI145-1op50-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {            16a         }
+	           25a         {            24a         }
+	           41a         {            40a         }
+	           49a         {            48a         }
+	           57a         {            56a         }
+	           73a         {            72a         }
+	           81a         {            80a         }
+	           89a        }{            89a        }{
+	           NaN       NaN           103a         }
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.chopin_mazurkas.BI145-2op50-2 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	6 organ points started, 5 ended:
+	    mc pedal    mc pedalend
+	0   27     V    27        ]
+	1   58     V    58        ]
+	2   68    vi    70        ]
+	3   72    vi    74        ]
+	4   78     V   102        ]
+	5  102     V  <NA>      NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI153-3op56-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             9a        }{
+	            9a        }{            23a         }
+	           25a         {            33a        }{
+	           33a        }{            47a         }
+	           49a         {            52a         }
+	           57a         {            56a         }
+	           67a         {            65a         }
+	           72a         {            72a         }
+	           81a         {            80a         }
+	           88a         {            88a         }
+	           96a         {            95a         }
+	          106a         {           105a         }
+	          109a         {           109a         }
+	          113a         {           113a         }
+	          121a         {           117a         }
+	          129a         {           128a         }
+	          137a         {           136a         }
+	          145a        }{           145a        }{
+	          161a         {           159a         }
+	          169a        }{           169a        }{
+	          177a         {           176a         }
+	          189a         {           188a         }
+	          213a        }{           213a        }{
+	           NaN       NaN           219a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI157-2op59-2 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             9a        }{
+	            9a        }{            20a         }
+	           23a         {            31a        }{
+	           31a        }{            42a         }
+	           45a         {            52a         }
+	           60a        }{            60a        }{
+	           69a        }{            69a        }{
+	           77a        }{            77a        }{
+	           89a        }{            89a        }{
+	           NaN       NaN           109a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI157-3op59-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             8a         }
+	            9a         {            16a         }
+	           16a         {            24a         }
+	           24a         {            32a         }
+	           33a         {            43a         }
+	           54a         {            54a         }
+	           65a         {            64a         }
+	           71a         {            70a         }
+	           75a         {            74a         }
+	           81a         {            80a         }
+	           97a        }{            97a        }{
+	          105a         {           104a         }
+	          122a         {           122a         }
+	          134a         {           134a         }
+	          147a         {           146a         }
+	           NaN       NaN           154a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI16-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             8a         }
+	            8a         {             8b         }
+	            8b         {            16a         }
+	           17a         {            24a         }
+	           24a         {            32a         }
+	           NaN       NaN            32b         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI162-1op63-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             9a        }{
+	            9a        }{            16a        }{
+	           16a        }{            31a         }
+	           43a         {            42a         }
+	           53a         {            52a         }
+	           69a         {            66a         }
+	           NaN       NaN            99a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI163op67-4 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             8a         }
+	            8a         {            16a         }
+	           16a         {            32a         }
+	           33a         {            32b         }
+	           41a         {            40a         }
+	           33b         {            48a         }
+	           41b         {            40b         }
+	           48b         {            48b         }
+	           56a         {            56a         }
+	           64a         {            64a         }
+	           NaN       NaN            80a         }
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.chopin_mazurkas.BI18op68-2 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	9 organ points started, 8 ended:
+	   mc pedal    mc pedalend
+	0   1     i    17        ]
+	1  17   III    21        ]
+	2  22     i    29        ]
+	3  29   III    30        ]
+	4  31     I    34        ]
+	5  40     I    54        ]
+	6  47     i    58        ]
+	7  54   III    66        ]
+	8  59     i  <NA>      NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI18op68-2 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             4a         }
+	            4a         {             8a         }
+	            8a         {            12a         }
+	           12a         {            16a         }
+	           16a         {            20a         }
+	           20a         {            24a         }
+	           24a         {            28a         }
+	           28a         {            20b         }
+	           20b         {            24b         }
+	           24b         {            28b         }
+	           28b         {            36a         }
+	           37a         {            36b         }
+	           45a         {            40a         }
+	           48a         {            44a         }
+	           52a         {            48a         }
+	           56a         {            52a         }
+	           60a         {            56a         }
+	           NaN       NaN            60a         }
+	           NaN       NaN            64a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI34op68-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             8a         }
+	            9a         {            16a         }
+	           17a         {            20a         }
+	           21a         {            24a         }
+	           33a         {            32a         }
+	           41a         {            40a         }
+	           45a        }{            45a        }{
+	           53a         {            52a         }
+	           NaN       NaN            60a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI60-2op06-2 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             8a         }
+	            8a         {            16a         }
+	           16a         {            16b         }
+	           16b         {            23a         }
+	           23a         {            32a         }
+	           32a         {            23b         }
+	           23b         {            32b         }
+	           32b         {            40a         }
+	           40a         {            48a         }
+	           41a         {            56a         }
+	           49a         {            64a         }
+	           56a         {            72a         }
+	           64a         {            NaN       NaN
+WARNING  ms3.Parse.chopin_mazurkas.BI61-5op07-5 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3264) unfold_measures_table():
+	Error in the repeat structure: Did not reach the stopping value -1 in measures.next:
+	mc
+	1      (2,)
+	2      (3,)
+	3      (4,)
+	4      (5,)
+	5      (6,)
+	6      (7,)
+	7      (8,)
+	8      (9,)
+	9     (10,)
+	10    (11,)
+	11    (12,)
+	12    (13,)
+	13    (14,)
+	14    (15,)
+	15    (16,)
+	16    (17,)
+	17    (18,)
+	18    (19,)
+	19    (20,)
+	20     (5,)
+	Name: next, dtype: object
+WARNING  ms3.Parse.chopin_mazurkas.BI61-5op07-5 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 597) unfold_facet_df():
+	Unfolding 'expanded DCML labels' unsuccessful. Check warnings concerning repeat structure and fix.
+WARNING  ms3.Parse.chopin_mazurkas.BI77-3op17-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3264) unfold_measures_table():
+	Error in the repeat structure: Did not reach the stopping value -1 in measures.next:
+	mc
+	1         (2,)
+	2         (3,)
+	3         (4,)
+	4         (5,)
+	5         (6,)
+	        ...   
+	82       (83,)
+	83    (84, 85)
+	84       (60,)
+	85       (86,)
+	86        (3,)
+	Name: next, Length: 86, dtype: object
+WARNING  ms3.Parse.chopin_mazurkas.BI77-3op17-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 597) unfold_facet_df():
+	Unfolding 'expanded DCML labels' unsuccessful. Check warnings concerning repeat structure and fix.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI85 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {            10a         }
+	           10a         {            12a         }
+	           13a         {            18a         }
+	           18a         {            20a         }
+	           10b         {            10b         }
+	           13b         {            12b         }
+	           18b         {            18b         }
+	           21a         {            20b         }
+	           24a         {            24a         }
+	           29a         {            28a         }
+	           34a         {            34a         }
+	           37a         {            36a         }
+	           42a         {            42a         }
+	           44a         {            44a         }
+	           NaN       NaN            52a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI89-1op24-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             8a         }
+	            8a         {            16a         }
+	           17a         {            20a         }
+	           21a         {            24a         }
+	           25a         {            28a         }
+	           29a         {            32a         }
+	            8b         {             8b         }
+	           17b         {            16b         }
+	           21b         {            20b         }
+	           25b         {            24b         }
+	           29b         {            28b         }
+	           33a         {            32b         }
+	           41a         {            40a         }
+	           49a         {            48a         }
+	           56a         {            56a         }
+	           NaN       NaN            64a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI89-3op24-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {            12a         }
+	           12a         {            12b         }
+	           12b         {            20a         }
+	           24a         {            36a         }
+	           36a         {            20b         }
+	           24b         {            36b         }
+	           NaN       NaN            38a         }
+WARNING  ms3.Parse.chopin_mazurkas.BI89-3op24-3 -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 139) add_quarterbeats_col():
+	Error while creating durations from quarterbeats column. Error:
+	list index out of range
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.chopin_mazurkas.BI89-4op24-4 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             4a         }
+	            5a         {            12a         }
+	           13a         {            20a         }
+	           21a         {            28a         }
+	           29a         {            35a         }
+	           37a         {            44a         }
+	           45a         {            52a         }
+	           21b         {            28b         }
+	           29b         {            35b         }
+	           37b         {            44b         }
+	           45b         {            52b         }
+	           52b         {            60a         }
+	           60b         {            60b         }
+	           65a         {            64a         }
+	           69a         {            68a         }
+	           73a         {            72a         }
+	           81a         {            80a         }
+	           89a         {            84a         }
+	           99a         {            88a         }
+	          107a         {            94a         }
+	          115a         {           106a         }
+	          123a         {           114a         }
+	          131a         {           122a         }
+	          135a         {           128a         }
+	           NaN       NaN           134a         }
+	           NaN       NaN           139a         }
+Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                             mc   mn mc_onset          label       chord_tones added_tones  n_colored  n_untouched  count_ratio
+chopin_mazurkas MS3/BI105-4op30-4.mscx 213  131  131      1/2          V7/IV     (7, 11, 8, 5)          ()          5            0     1.000000
+                MS3/BI115-2op33-2.mscx 98    66   65        0   I.viio7/iii{    (4, 1, -2, -5)          ()         15            0     1.000000
+                                       100   68   67        0      viio7/iii    (4, 1, -2, -5)          ()         15            0     1.000000
+                MS3/BI115-3op33-3.mscx 106   43   42      1/2            I64         (1, 0, 4)          ()          2            0     1.000000
+                MS3/BI126-1op41-4.mscx 93    46   45      1/2          vii%7  (-2, -5, -8, -4)          ()          4            0     1.000000
+                                       97    48   47      1/2          vii%7  (-2, -5, -8, -4)          ()          4            0     1.000000
+                MS3/BI126-3op41-1.mscx 102   72   72      1/2         .It/iv        (2, 6, 12)          ()          1            0     1.000000
+                MS3/BI145-3op50-3.mscx 37    32   30        0          V(64)         (8, 7, 4)          ()          4            1     0.800000
+                                       168  124  122        0          V(64)         (8, 7, 4)          ()          4            1     0.800000
+                                       210  145  143        0  viio64(2)/bII         (1, 2, 4)          ()          3            1     0.750000
+                                       277  173  171      1/4     viio65/VII     (7, 4, 1, 10)          ()          2            1     0.666667
+                MS3/BI157-1op59-1.mscx 190   92   92        0              V         (4, 8, 5)          ()          7            0     1.000000
+                                       191   92   92      1/2          V(13)         (4, 8, 5)        (0,)          3            1     0.750000
+                                       192   92   92    11/16              V         (4, 8, 5)          ()          1            0     1.000000
+                                       199   97   97      1/4      V7(#6)/IV     (3, 7, 4, 13)          ()          2            1     0.666667
+                MS3/BI157-2op59-2.mscx 204  105  105      1/4              I       (-4, 0, -3)          ()         17            7     0.708333
+                MS3/BI157-3op59-3.mscx 121   56   55      1/2           V(2)        (9, 11, 8)          ()          2            1     0.666667
+                                       284  128  127      1/4            V/v        (8, 12, 9)          ()          2            1     0.666667
+                MS3/BI162-1op63-1.mscx 44    23   23        0      V7(4)/III    (10, 9, 11, 8)          ()          4            0     1.000000
+                                       45    23   23      1/4         Fr6/vi    (4, 8, 10, 14)          ()          5            0     1.000000
+                                       46    23   23      1/2            III       (9, 13, 10)          ()          5            0     1.000000
+                                       47    24   24        0         V7/III   (10, 14, 11, 8)          ()          5            0     1.000000
+                                       48    24   24      1/4            III       (9, 13, 10)          ()          4            0     1.000000
+                MS3/BI162-3op63-3.mscx 40    34   33        0        I.V(4){         (8, 7, 9)          ()          5            0     1.000000
+                                       41    34   33      1/4         viio64        (6, 12, 9)          ()          3            0     1.000000
+                                       42    34   33      1/2             I6        (11, 8, 7)          ()          4            0     1.000000
+                                       43    35   34        0            V64        (9, 8, 12)          ()          5            0     1.000000
+                                       44    35   34      1/4             V7     (8, 12, 9, 6)          ()          2            0     1.000000
+                                       45    35   34      1/2              I        (7, 11, 8)          ()          4            0     1.000000
+                                       46    36   35        0        ii6(11)        (6, 10, 9)        (8,)          5            0     1.000000
+                                       47    36   35      1/4            ii6        (6, 10, 9)          ()          2            0     1.000000
+                                       48    36   35      1/2          V7(6)    (8, 12, 11, 6)          ()          3            0     1.000000
+                                       49    37   36        0           ii64        (10, 9, 6)          ()          4            0     1.000000
+                                       50    37   36      1/4            V65     (12, 9, 6, 8)          ()          3            0     1.000000
+                                       51    37   36      1/2         I|PAC}        (7, 11, 8)          ()          3            0     1.000000
+                                       52    38   37        0          V(4){         (8, 7, 9)          ()          7            0     1.000000
+                                       53    38   37      1/4             V2     (6, 8, 12, 9)          ()          4            0     1.000000
+                                       54    38   37      1/2             I6        (11, 8, 7)          ()          4            0     1.000000
+                                       55    39   38        0            V64        (9, 8, 12)          ()          5            0     1.000000
+                                       56    39   38      1/4             V7     (8, 12, 9, 6)          ()          2            0     1.000000
+                                       57    39   38      1/2              I        (7, 11, 8)          ()          4            0     1.000000
+                                       58    40   39        0       ii65(11)     (6, 10, 7, 9)        (8,)          5            0     1.000000
+                                       59    40   39      1/4            ii6        (6, 10, 9)          ()          2            0     1.000000
+                                       60    40   39      1/2           V(6)       (8, 12, 11)          ()          4            0     1.000000
+                                       61    41   40        0           ii64        (10, 9, 6)          ()          4            0     1.000000
+                                       62    41   40      1/4            V65     (12, 9, 6, 8)          ()          3            0     1.000000
+                                       63    41   40      1/2         I|PAC}        (7, 11, 8)          ()          3            0     1.000000
+                                       64    42   41        0      V7(9)/IV{     (7, 11, 8, 5)        (9,)          7            0     1.000000
+                                       65    42   41      1/2          I6/IV        (10, 7, 6)          ()          4            0     1.000000
+                                       66    43   42        0     I[V7(9)/IV     (7, 11, 8, 5)        (9,)          7            0     1.000000
+                                       67    43   42      1/2       V(64)/IV        (7, 6, 10)          ()          4            0     1.000000
+                                       68    44   43        0        V(4)/IV         (7, 6, 8)          ()          4            0     1.000000
+                                       69    44   43      1/4       V7(9)/IV     (7, 11, 8, 5)        (9,)          4            0     1.000000
+                                       70    44   43      1/2       V(64)/IV        (7, 6, 10)          ()          4            0     1.000000
+                                       71    45   44        0         ii2/IV      (6, 8, 5, 9)          ()          6            0     1.000000
+                                       72    45   44      1/4         V7/IV]     (7, 11, 8, 5)          ()          5            0     1.000000
+                                       73    45   44      1/2      I/IV|PAC}        (6, 10, 7)          ()          4            0     1.000000
+                                       74    46   45        0      V7(9)/IV{     (7, 11, 8, 5)        (9,)          6            0     1.000000
+                                       75    46   45      1/2          I6/IV        (10, 7, 6)          ()          4            0     1.000000
+                                       76    47   46        0          V7/IV     (7, 11, 8, 5)          ()          7            0     1.000000
+                                       77    47   46      1/2             IV        (6, 10, 7)          ()          3            0     1.000000
+                                       78    48   47        0             ii        (9, 6, 10)          ()          4            0     1.000000
+                                       79    48   47      1/4           V7/v    (9, 13, 10, 7)          ()          4            0     1.000000
+                                       80    48   47      1/2              v         (8, 5, 9)          ()          3            0     1.000000
+                                       82    50   49        0      i.It6(6){        (3, 9, 13)          ()          2            1     0.666667
+                MS3/BI61-1op07-1.mscx  47    33   32      1/2          V(b2)        (-6, 3, 0)          ()          2            1     0.666667
+                                       69    48   46      1/4        bVI(#4)       (-6, -2, 7)          ()          2            1     0.666667
+                                       78    52   50      1/4        bVI(#4)       (-6, -2, 7)          ()          2            1     0.666667
+                MS3/BI77-1op17-1.mscx  92    52   51        0         V2(b2)   (-4, -7, 2, -1)          ()          2            0     1.000000
+                MS3/BI77-2op17-2.mscx  99    40   39      1/2      iv6/bII/V      (-8, -4, -5)          ()          3            0     1.000000
+                                       101   41   40      1/4      iv6/bII/V      (-8, -4, -5)          ()          3            0     1.000000
+                                       122   46   45      1/2      iv6/bII/V      (-8, -4, -5)          ()          3            0     1.000000
+                MS3/BI77-3op17-3.mscx  118   37   35    17/24            I64       (-3, -4, 0)          ()          1            0     1.000000
+                MS3/BI85.mscx          0      1    1        0          Ab.V{       (-3, 1, -2)          ()         12            6     0.666667
+                MS3/BI89-4op24-4.mscx  288  145  142        0            iii      (-5, -8, -4)          ()          8            0     1.000000

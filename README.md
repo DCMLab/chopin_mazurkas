@@ -129,3 +129,6 @@ No score available for BI82.txt
 |BI89-4op24-4 |     146|   294|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH (1-34), AN, DK|
 |BI93-1op67-1 |      60|    94|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
 |BI93-2op67-3 |      56|    97|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
+
+
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.2.*
