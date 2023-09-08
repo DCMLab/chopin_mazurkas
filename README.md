@@ -45,7 +45,7 @@ which comes with a data report that is currently in press at Empirical Musicolog
 
 ## Version history
 
-See the [GitHub releases](https://github.com/DCMLab/{{ repo_name }}/releases).
+See the [GitHub releases](https://github.com/DCMLab/chopin_mazurkas/releases).
 
 ## Getting the data
 
