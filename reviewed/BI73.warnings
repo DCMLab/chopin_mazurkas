@@ -1,0 +1,13 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 12) ms3.Parse.chopin_mazurkas.BI73
+	Volta group of MC 12 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 13) ms3.Parse.chopin_mazurkas.BI73
+	None of the MCs following the irregular MC 13 complete it.
+	   nominal_duration actual_duration expected_completion  next
+	mc                                                           
+	13              3/4             1/4                 1/2  (5,)
+	5               3/4             3/4                   0  (6,)
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.chopin_mazurkas.BI73
+	No metronome mark found in the first measure nor anywhere else in the score.
