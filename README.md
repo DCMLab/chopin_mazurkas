@@ -192,7 +192,7 @@ The file names listed in the [Overview](#overview) below refer to the Brown Inde
 possible. File names ending on `-#` translate to `no. #`.
 
 
-# Overview
+## Overview
 |  file_name  |measures|labels|standard|                             annotators                             |    reviewers    |
 |-------------|-------:|-----:|--------|--------------------------------------------------------------------|-----------------|
 |BI105-2op30-2|      64|   116|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
@@ -252,4 +252,4 @@ possible. File names ending on `-#` translate to `no. #`.
 |BI93-2op67-3 |      56|    97|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.1.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
