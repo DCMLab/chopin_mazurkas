@@ -253,7 +253,7 @@ possible. File names ending on `-#` translate to `no. #`.
 |BI89-4op24-4 |     146|   294|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH (1-34), AN, DK|
 |BI93-1op67-1 |      60|    94|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
 |BI93-2op67-3 |      56|    97|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
-|BI105-1op30-1|      54|     0|        |                                                                    |                 |
+|BI105-1op30-1|      53|     0|        |                                                                    |                 |
 
 
 *Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
