@@ -30,7 +30,7 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning (leaving out alternative endings)",
+        "title": "Offset from Beginning",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "type": "string",
         "constraints": {
@@ -39,7 +39,7 @@
       },
       {
         "name": "quarterbeats_all_endings",
-        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
+        "title": "Offset from Beginning (Including Endings)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
@@ -162,14 +162,6 @@
         "type": "string"
       },
       {
-        "name": "crescendo_line",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
-      },
-      {
         "name": "diminuendo_line",
         "type": "string"
       },
@@ -178,15 +170,11 @@
         "type": "string"
       },
       {
-        "name": "TextLine",
+        "name": "crescendo_line",
         "type": "string"
       },
       {
-        "name": "TextLine_poco stretto",
-        "type": "string"
-      },
-      {
-        "name": "TextLine_slentando",
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
@@ -202,11 +190,23 @@
       {
         "name": "Trill:trill",
         "type": "string"
+      },
+      {
+        "name": "TextLine",
+        "type": "string"
+      },
+      {
+        "name": "TextLine_poco stretto",
+        "type": "string"
+      },
+      {
+        "name": "TextLine_slentando",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "XuAZ0pGNbP7zhA",
-    "filepath": "chords/XuAZ0pGNbP7zhA.schema.yaml",
+    "identifier": "iL_Xk1Embt53GQ",
+    "filepath": "chords/iL_Xk1Embt53GQ.schema.yaml",
     "used_in": "BI105-4op30-4"
   },
   "creator": {
@@ -219,8 +219,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.5.4"
+    "softwareVersion": "2.5.3"
   },
-  "git_revision": "2da9ba9818c843faf9f9a1a297623763a4f15af0",
-  "git_tag": "v3.0"
+  "git_revision": "fa5ff73dbd85d985dd35db51f2d2f0fb503304cb",
+  "git_tag": "v3.0-5-gfa5ff73"
 }
