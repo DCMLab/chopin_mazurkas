@@ -225,7 +225,7 @@ possible. File names ending on `-#` translate to `no. #`.
 |BI162-1op63-1|     102|   169|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|AN, DK           |
 |BI162-2op63-2|      56|    80|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|AN, DK           |
 |BI162-3op63-3|      76|   123|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|AN, DK           |
-|BI163op67-4  |      80|   118|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|AN, DK           |
+|BI163op67-4  |      80|   117|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|AN, DK           |
 |BI167op67-2  |      56|    78|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|AN, DK           |
 |BI168op68-4  |      40|    80|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|AN, DK           |
 |BI18op68-2   |      64|   127|2.3.0   |Wendelin Bitzan (1.0.0), Adrian Nagel (2.2.0), Davor Krkljus (2.3.0)|JH, AN, DK       |
