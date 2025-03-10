@@ -30,7 +30,7 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning (leaving out alternative endings)",
+        "title": "Offset from Beginning",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "type": "string",
         "constraints": {
@@ -39,7 +39,7 @@
       },
       {
         "name": "quarterbeats_all_endings",
-        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
+        "title": "Offset from Beginning (Including Endings)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
@@ -166,18 +166,6 @@
         "type": "string"
       },
       {
-        "name": "crescendo_line",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "decrescendo_hairpin",
-        "type": "string"
-      },
-      {
         "name": "pedal",
         "title": "Pedal Point",
         "description": "Specified as Roman numeral.",
@@ -186,11 +174,23 @@
       {
         "name": "Pedal_<sym>keyboardPedalPed</sym>",
         "type": "string"
+      },
+      {
+        "name": "crescendo_line",
+        "type": "string"
+      },
+      {
+        "name": "decrescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "0SvieTYQo9MKzQ",
-    "filepath": "chords/0SvieTYQo9MKzQ.schema.yaml",
+    "identifier": "dpL2H2vxKDjG7A",
+    "filepath": "chords/dpL2H2vxKDjG7A.schema.yaml",
     "used_in": "BI145-2op50-2"
   },
   "creator": {
@@ -203,8 +203,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.5.4"
+    "softwareVersion": "2.5.3"
   },
-  "git_revision": "2da9ba9818c843faf9f9a1a297623763a4f15af0",
-  "git_tag": "v3.0"
+  "git_revision": "5625340473c1d5fbd98a7b3e09d9888079550387",
+  "git_tag": "v3.0-9-g5625340"
 }
