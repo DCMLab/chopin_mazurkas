@@ -30,7 +30,7 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning",
+        "title": "Offset from Beginning (leaving out alternative endings)",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "type": "string",
         "constraints": {
@@ -39,7 +39,7 @@
       },
       {
         "name": "quarterbeats_all_endings",
-        "title": "Offset from Beginning (Including Endings)",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
@@ -166,6 +166,22 @@
         "type": "string"
       },
       {
+        "name": "diminuendo_line",
+        "type": "string"
+      },
+      {
+        "name": "HairPin:3_decresc.",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_line",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
+        "type": "string"
+      },
+      {
         "name": "pedal",
         "title": "Pedal Point",
         "description": "Specified as Roman numeral.",
@@ -174,27 +190,11 @@
       {
         "name": "Pedal_<sym>keyboardPedalPed</sym>",
         "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_line",
-        "type": "string"
-      },
-      {
-        "name": "diminuendo_line",
-        "type": "string"
-      },
-      {
-        "name": "HairPin:3_decresc.",
-        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "zJnbDagD9Bt26w",
-    "filepath": "chords/zJnbDagD9Bt26w.schema.yaml",
+    "identifier": "PWkT6j7hkyGn9g",
+    "filepath": "chords/PWkT6j7hkyGn9g.schema.yaml",
     "used_in": "BI60-2op06-2"
   },
   "creator": {
@@ -207,8 +207,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.5.3"
+    "softwareVersion": "2.5.4"
   },
-  "git_revision": "c2325eda7510284c5de3a27347f916d433e35b10",
-  "git_tag": "v3.0-26-gc2325ed"
+  "git_revision": "322324ff1c30f3890b0a86b2ccc07973438ec85e",
+  "git_tag": "v3.0-33-g322324f"
 }
