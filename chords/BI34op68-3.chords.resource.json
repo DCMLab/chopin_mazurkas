@@ -11,7 +11,172 @@
       "delimiter": "\t"
     }
   },
-  "schema": "https://raw.githubusercontent.com/DCMLab/frictionless_schemas/main/chords/ruqOX_uyRgihYQ.schema.yaml",
+  "schema": {
+    "fields": [
+      {
+        "name": "mc",
+        "title": "Measure Count",
+        "description": "Running count of encoded <Measure> tags which do not necessarily express a full measure (e.g. in case of an anacrusis).",
+        "type": "integer",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "mn",
+        "title": "Measure Number",
+        "description": "Measure number as printed in the score, computed from mc, dont_count and numbering_offset.",
+        "type": "string"
+      },
+      {
+        "name": "quarterbeats",
+        "title": "Offset from Beginning (leaving out alternative endings)",
+        "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
+        "type": "string",
+        "constraints": {
+          "pattern": "\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "name": "quarterbeats_all_endings",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
+        "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
+        "type": "string",
+        "constraints": {
+          "pattern": "\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "name": "duration_qb",
+        "title": "Duration in \u2669",
+        "description": "A float corresponding to duration * 4",
+        "type": "number"
+      },
+      {
+        "name": "mc_onset",
+        "title": "Offset within Encoded Measure",
+        "description": "Distance of an event from the beginning of the <Measure> tag.",
+        "type": "string",
+        "constraints": {
+          "pattern": "\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "name": "mn_onset",
+        "title": "Offset within Logical Measure",
+        "description": "Distance from the beginning of the logical measure. Relevant, for example, to compute the metric position of an event.",
+        "type": "string",
+        "constraints": {
+          "pattern": "\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "name": "event",
+        "type": "string"
+      },
+      {
+        "name": "timesig",
+        "title": "Time Signature",
+        "description": "Given as string, e.g. \"4/4\".",
+        "type": "string"
+      },
+      {
+        "name": "staff",
+        "title": "Staff",
+        "description": "Number of the staff where an event occurs, 1 designating the top staff.",
+        "type": "integer"
+      },
+      {
+        "name": "voice",
+        "title": "Notational Layer",
+        "description": "A number between 1-4 where 1 is MuseScore's default layer (blue), 2 the second layer in green with downward stems, etc.",
+        "type": "integer"
+      },
+      {
+        "name": "duration",
+        "title": "Duration",
+        "description": "As fraction of a whole note.",
+        "type": "string",
+        "constraints": {
+          "pattern": "\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "name": "gracenote",
+        "title": "Grace Note",
+        "description": "Name given to a type of grace note in the MuseScore encoding, e.g. \"grace16\"",
+        "type": "string"
+      },
+      {
+        "name": "nominal_duration",
+        "title": "Nominal Duration",
+        "description": "The duration corresponding to a note/rest value without applying any dots or n-tuplets, as fraction of a whole note. Multiplied with \"scalar\" to yield the actual duration of the note/rest.",
+        "type": "string",
+        "constraints": {
+          "pattern": "\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "name": "scalar",
+        "title": "Scalar",
+        "description": "Decimal value reflecting all dots and n-tuplets modifying the duration of a note/rest. Yields the actual duration when multiplied with \"nominal_duration\".",
+        "type": "string",
+        "constraints": {
+          "pattern": "\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "name": "chord_id",
+        "title": "Chord ID",
+        "description": "Row in the chords table.",
+        "type": "integer"
+      },
+      {
+        "name": "dynamics",
+        "type": "string"
+      },
+      {
+        "name": "articulation",
+        "type": "string"
+      },
+      {
+        "name": "staff_text",
+        "type": "string"
+      },
+      {
+        "name": "tempo",
+        "type": "string"
+      },
+      {
+        "name": "qpm",
+        "type": "string"
+      },
+      {
+        "name": "tempo_visible",
+        "type": "string"
+      },
+      {
+        "name": "slur",
+        "title": "Slur",
+        "description": "IDs of active slurs that a chord falls under, as a tuple of integers.",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "pedal",
+        "title": "Pedal Point",
+        "description": "Specified as Roman numeral.",
+        "type": "string"
+      }
+    ],
+    "facet": "chords",
+    "identifier": "ruqOX_uyRgihYQ",
+    "filepath": "chords/ruqOX_uyRgihYQ.schema.yaml",
+    "used_in": "BI34op68-3"
+  },
   "creator": {
     "@context": "https://schema.org/",
     "@type": "SoftwareApplication",
@@ -22,8 +187,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.1"
+    "softwareVersion": "2.5.4"
   },
-  "git_revision": "c16aad6e40eb9060d3320975b2e69e86b1ffd518",
-  "git_tag": "v2.0-1-gc16aad6"
+  "git_revision": "2da9ba9818c843faf9f9a1a297623763a4f15af0",
+  "git_tag": "v3.0"
 }
